@@ -1,0 +1,545 @@
+Team,City,Country,Stadium,Capacity,Pitch
+Wattenscheid 09,Bochum-Wattenscheid,Germany,Lohrheidestadion,16233,Natural
+Hertha BSC,Berlín,Germany,Olympiastadion Berlin,76065,Natural
+Unterhaching,Unterhaching,Germany,Sportpark Unterhaching,15053,Natural
+Fortuna Köln,Cologne,Germany,Südstadion,14944,Natural
+MSV Duisburg,Duisburgo,Germany,Schauinsland-Reisen-Arena,31514,Natural
+Saarbrücken,Saarbrücken,Germany,Stadion Ludwigspark,35286,Natural
+Braunschweig,Braunschweig,Germany,Eintracht-Stadion,23325,Natural
+Hessen Kassel,Hessen,Germany,,"18,737",grass
+VfL Osnabrück,Osnabrück,Germany,osnatel-ARENA,16130,Césped
+Meppen,Meppen,Germany,MEP-Arena,16500,Natural
+Blau-Weiß 1890 B.,Berlin,Germany,,3000,
+Schalke 04,Gelsenkirchen,Germany,VELTINS-Arena,62271,Natural
+RW Essen,Essen,Germany,Stadion Essen,20650,Natural
+SC Freiburg,Freiburg,Germany,Schwarzwald-Stadion,24000,Natural
+Alemannia Aachen,Aachen,Germany,Neuer Tivoli,32960,cesped natural
+Darmstadt 98,Darmstadt,Germany,Merck-Stadion am Böllenfalltor,17000,Natural
+Hannover 96,Hannover,Germany,HDI-Arena,49000,Natural
+Stuttgarter,Stuttgart,Germany,GAZİ-Stadion auf der Waldau,11436,Natural
+Preußen Münster,Münster,Germany,Preußen-Stadion,18050,Natural
+Bayreuth SpVgg,Bayreuth,Germany,,21500,
+Waldhof Mannheim,Mannheim,Germany,,"25,667",
+FC 08 Homburg,Homburg,Germany,,"16,488",
+Mainz 05,Mainz,Germany,Opel Arena,34034,Natural
+VfB Oldenburg,Oldenburg,Germany,Marschwegstadion,15552,Natural
+Havelse,Havelse,Germany,Wilhelm-Langrehr-Stadion,6000,Natural
+Schweinfurt,Schweinfurt,Germany,,15060,
+Hallescher FC,Halle,Germany,ERDGAS Sportpark,15057,Natural
+Carl Zeiss Jena,Jena,Germany,Ernst-Abbe-Sportfeld,16000,Grass
+Chemnitzer,Chemnitz,Germany,,16061,Grass
+Rot-Weiss Erfurt,Erfurt,Germany,Steigerwaldstadion,19439,Natural
+1860 München,München,Germany,Grünwalder Stadion,75000,Natural
+Lokomotive Leipzig,Leipzig,Germany,,"10,900",
+Wolfsburg,Wolfsburg,Germany,Volkswagen-Arena,30000,Natural
+Wuppertaler SV,Wuppertal,Germany,,"23,067",
+Hansa Rostock,Rostock,Germany,DKB Arena,29000,Natural
+FC St. Pauli,Hamburg,Germany,Millerntor-Stadion,29546,Natural
+Fortuna,Düsseldorf,Germany,ESPRIT arena,54500,Natural
+FC Remscheid,Remscheid,Germany,,"12,463",Grass
+VfL Bochum,Bochum,Germany,rewirpowerSTADION,30748,Natural
+Tennis Borussia,Berlín,Germany,,11500,
+KFC Uerdingen 05,Uerdingen,Germany,,"34,500",grass
+FSV Frankfurt,Frankfurt am Main,Germany,Frankfurter Volksbank Stadion,10826,Natural
+Zwickau,Zwickau,Germany,,10134,
+Nürnberg,Nürnberg,Germany,Grundig-Stadion,50000,Natural
+Arminia Bielefeld,Bielefeld,Germany,SchücoArena,27300,Natural
+VfB Lübeck,Lübeck,Germany,,"17,849",grass
+Eintracht,Frankfurt am Main,Germany,Commerzbank-Arena,52300,Natural
+Gutersloh,Gutersloh,Germany,,8400,
+Kaiserslautern,Kaiserslautern,Germany,Fritz-Walter-Stadion,49780,Natural
+Greuther Fürth,Fürth,Germany,Sportpark Ronhof Thomas Sommer,18000,Natural
+Energie Cottbus,Cottbus,Germany,"Stadion der Freundschaft, Cottbus",22528,Natural
+Ulm,Ulm,Germany,,19500,
+Köln,Köln,Germany,RheinEnergieStadion,49968,Natural
+Rot-Weiß,Essen,Germany,Stadion Niederrhein,21318,
+Karlsruher SC,Karlsruhe,Germany,Wildparkstadion,29699,Natural
+Kickers Offenbach,Offenbach,Germany,Bieberer Berg Stadion,25200,Césped
+Mönchengladbach,Mönchengladbach,Germany,Borussia-Park,54057,Natural
+Reutlingen,Reutlingen,Germany,,15228,
+Rot Weiss Ahlen,Ahlen,Germany,Wersestadion,11498,
+SV Babelsberg 03,Potsdam,Germany,Karl-Liebknecht-Stadion,"10,787",Grass
+Union Berlin,Berlin,Germany,Stadion An der Alten Försterei,22012,cesped real
+Eintracht Trier,Tréveris,Germany,,"10,256",Grass
+Wacker Burghausen,Burghausen,Germany,Wacker-Arena,10200,Natural
+Jahn Regensburg,Ratisbona,Germany,Städtisches Jahnstadion,12500,Natural
+Erzgebirge Aue,Aue,Germany,Sparkassen-Erzgebirgsstadion,15690,Natural
+Dynamo Dresden,Dresden,Germany,DDV-Stadion,32066,Natural
+Siegen,Siegen,Germany,,18500,
+Paderborn,Paderborn,Germany,Benteler-Arena,15306,Natural
+TuS Koblenz,Koblenz,Germany,Stadion Oberwerth,16527,
+FC Augsburg,Augsburg,Germany,WWK Arena,30662,Natural
+Wehen Burghausen,Burghausen,Germany,,10000,
+Hoffenheim,Sinsheim,Germany,WIRSOL Rhein-Neckar-Arena,21000,Natural
+Ingolstadt 04,Ingolstadt,Germany,Audi-Sportpark,15729,NATURAL
+VfR Aalen,Aalen,Germany,Scholz Arena,11183,Natural
+Sandhausen,Sandhausen,Germany,Hardtwaldstadion,12136,Natural
+Heidenheim,Heidenheim an der Brenz,Germany,Voith-Arena,15000,Natural
+RB Leipzig,Leipzig,Germany,Red Bull Arena,44345,Natural
+Stuttgart,Stuttgart,Germany,Mercedes-Benz-Arena,60469,Natural
+Würzburger,Würzburg,Germany,flyeralarm-Arena,14500,
+Holstein Kiel,Kiel,Germany,Holstein-Stadion,11522,Natural
+Magdeburg,Magdeburg,Germany,,25910,
+Hamburger SV,Hamburg,Germany,Volksparkstadion,57030,Natural
+Wehen Wiesbaden,Wiesbaden,Germany,BRITA-Arena,13144,Natural
+Bayern München,München,Germany,Allianz Arena,75000,Natural
+B. Leverkusen,Leverkusen,Germany,BayArena,30210,Natural
+Werder Bremen,Bremen,Germany,Weserstadion,42358,Natural
+B. Dortmund,Dortmund,Germany,Signal Iduna Park,81359,Natural
+West Ham,Londres,England,London Stadium,80000,Natural
+Blackburn Rovers,Blackburn,England,Ewood Park,31367,Natural
+Sheffield United,Sheffield,England,Bramall Lane,32702,Natural
+Ipswich Town,Ipswich,England,Portman Road Stadium,30311,Natural
+Sunderland,Sunderland,England,Stadium of Light,49000,Natural
+Watford,Watford,England,Vicarage Road Stadium,19920,Natural
+Newcastle,Newcastle upon Tyne,England,St. James' Park,52389,Natural
+Port Vale,Stoke-on-Trent,England,Vale Park,19052,Natural
+AFC Bournemouth,Bournemouth,England,Vitality Stadium,12000,Natural
+Leeds United,Leeds,England,Elland Road,40204,Natural
+Plymouth Argyle,Plymouth,England,Home Park,19500,Natural
+Middlesbrough,Middlesbrough,England,Riverside Stadium,34988,Natural
+Brighton Hove Alb.,Brighton,England,The American Express Community Stadium,30750,Natural
+Barnsley,Barnsley,England,Oakwell Stadium,23009,Natural
+Stoke City,Stoke-on-Trent,England,bet365 Stadium,28383,Natural
+Oldham Athletic,Oldham,England,Boundary Park,13512,
+Leicester,Leicester,England,King Power Stadium,32500,Natural
+Bradford City,Bradford,England,Coral Windows Stadium,25136,Natural
+Hull City,Kingston upon Hull,England,Kingston Communications Stadium,25504,Natural
+Portsmouth,Portsmouth,England,Fratton Park,20821,Natural
+Wolves,Wolverhampton,England,Molineux Stadium,29195,Natural
+Swindon Town,Swindon,England,County Ground,15728,Natural
+Oxford United,Oxford,England,The Kassam Stadium,12500,Natural
+West Bromwich Alb.,West Bromwich,England,The Hawthorns,28003,Natural
+Bristol City,Bristol,England,Ashton Gate Stadium,21497,Natural
+Sheffield,Sheffield,England,Hillsborough Stadium,39814,Natural
+Notts County,Nottingham,England,Meadow Lane Stadium,19588,Natural
+Millwall,Londres,England,The Den,20146,Natural
+Bristol Rovers,Bristol,England,Memorial Stadium,11916,Natural
+Charlton Athletic,Londres,England,The Valley,27111,Natural
+Cambridge United,Cambridge,England,The R Costings Abbey Stadium,10847,Natural
+Tranmere Rovers,Wirral,England,Prenton Park,16587,Natural
+Derby County,Derby,England,iPro Stadium,33597,Natural
+Grimsby Town,Grimsby,England,Blundell Park,9546,Grass
+Southend United,Southend-on-Sea,England,Roots Hall Stadium,12392,Natural
+Birmingham City,Birmingham,England,St. Andrew's Stadium,30009,Natural
+Peterborough,Peterborough,England,London Road Stadium,15142,Natural
+Brentford,Brentford,England,Griffin Park,12763,Natural
+Luton Town,Luton,England,Kenilworth Road Stadium,"10,356",Grass
+Crystal Palace,Londres,England,Selhurst Park,26309,Natural
+Nottingham Forest,Nottingham,England,The City Ground,30576,Natural
+Bolton Wanderers,Bolton,England,Reebok Stadium,28723,Natural
+Oxford City,Oxford,England,Court Place Farm,2000,Natural
+Reading,Reading,England,Madejski Stadium,24200,Natural
+Burnley,Burnley,England,Turf Moor,22546,Natural
+Norwich City,Norwich,England,Carrow Road,27033,Natural
+Huddersfield Town,Huddersfield,England,The John Smith's Stadium,24554,Natural
+Queens Park Range.,Londres,England,Loftus Road,19100,Natural
+Man. City,Mánchester,England,Etihad Stadium,55097,Natural
+Crewe Alexandra,Crewe,England,Alexandra Stadium,10153,Natural
+Bury,Greater Manchester,England,,12500,
+Stockport County,Cheshire,England,Edgeley Park,10852,Natural
+Fulham,Londres,England,Craven Cottage,25700,Natural
+Walsall,Walsall,England,The Banks's Stadium,11300,Natural
+Preston North End,Preston,England,Deepdale Stadium,23408,Natural
+Wimbledon FC,London,England,,"15,876",Grass
+Gillingham,Gillingham,England,KRBS Priestfield Stadium,11582,Natural
+Coventry City,Coventry,England,City of Coventry Stadium,32609,Natural
+Rotherham United,Rotherham,England,New York Stadium,12021,Natural
+Cardiff City,Cardiff,England,Cardiff City Stadium,28016,Natural
+Wigan Athletic,Wigan,England,The DW Stadium,25138,Natural
+Swansea City,Swansea,England,Liberty Stadium,20769,Natural
+Wycombe Wanderers,Wycombe,England,Adams Park,10000,Natural
+MVV Maastricht,Maastricht,Netherlands,Stadion De Geusselt,10000,Natural
+FC Eindhoven,Eindhoven,Netherlands,Jan Louwers Stadion,5400,Natural
+Emmen,Emmen,Netherlands,Univé Stadion,8600,Natural
+Go Ahead Eagles,Deventer,Netherlands,De Adelaarshorst,10000,Natural
+TOP Oss,Oss,Netherlands,Frans Heesen Stadion,4700,Natural
+Dordrecht,Dordrecht,Netherlands,GN Bouw Stadion,4088,Césped Artificial
+BV Veendam ,Veendam,Netherlands,,"6,500",
+Heracles,Almelo,Netherlands,Polman Stadion,8500,Césped Artificial
+ADO Den Haag,La Haya,Netherlands,Kyocera Stadion,15000,Natural
+Cambuur,Leeuwarden,Netherlands,Cambuurstadion,10000,Natural
+VVV Venlo,Venlo,Netherlands,Seacon Stadion De Koel,8000,Natural
+SC Telstar,Velsen,Netherlands,TATA Steel Stadion,3625,Natural
+Helmond Sport,Helmond,Netherlands,Lavans Stadion,4142,Natural
+HFC Haarlem ,Haarlem,Netherlands,,"3,442",grass
+Den Bosch,Hertogenbosch,Netherlands,BrainWash Stadion De Vliert,9000,Natural
+RBC Roosendaal,Roosendaal,Netherlands,,4664,
+PEC Zwolle,Zwolle,Netherlands,IJsseldelta Stadion,12500,Césped Artificial
+Excelsior,Rótterdam,Netherlands,Stadion Woudestein,3541,Césped Artificial
+AZ Alkmaar,Alkmaar,Netherlands,AFAS Stadion,17023,Natural
+Groningen,Groninga,Netherlands,Euroborg,22579,Natural
+FC Volendam,Volendam,Netherlands,Kras Stadion,6984,Natural
+NAC Breda,Breda,Netherlands,Rat Verlegh Stadion,19000,Natural
+Fortuna Sittard,Sittard,Netherlands,Offermans Joosten stadion,12500,Natural
+Sparta Rotterdam,Rótterdam,Netherlands,Sparta-Stadion Het Kasteel,11026,Natural
+AGOVV Apeldoorn,Apeldoorn,Netherlands,,3259,
+De Graafschap,Doetinchem,Netherlands,Stadion De Vijverberg,12600,Natural
+FC Omniworld,Almere,Netherlands,,"4,501",Grass
+RKC Waalwijk,Waalwijk,Netherlands,Mandemakers Stadion,7508,Natural
+Almere City,Almere,Netherlands,Mitsubishi Forklift-Stadion,2500,Césped Artificial
+Willem II,Tilburgo,Netherlands,Koning Willem II Stadion,14637,Natural
+Jong Twente,Enschede,Netherlands,,"30,205",Grass
+Jong Ajax,Amsterdam,Netherlands,Sportpark De Toekomst,5000,Natural
+Achilles 29,Groesbeek,Netherlands,Sportpark De Heikant,4500,Natural
+Jong PSV,Eindhoven,Netherlands,Sportcomplex De Herdgang,2500,Natural
+Jong AZ,Alkmaar,Netherlands,,1000,
+Roda JC,Kerkrade,Netherlands,Parkstad Limburg Stadion,19979,Natural
+NEC Nijmegen,Nijmegen,Netherlands,Goffertstadion,12500,Natural
+Jong Utrecht,Utrecht,Netherlands,,450,
+Ajax,Ámsterdam,Netherlands,Johan Cruyff Arena,53052,Natural
+Utrecht,Utrecht,Netherlands,Stadion Galgenwaard,24426,Natural
+Twente 1965,Enschede,Netherlands,De Grolsch Veste,30014,Natural
+PSV,Eindhoven,Netherlands,Philips Stadion,35119,Natural
+Vitesse,Arnhem,Netherlands,GelreDome,28278,Natural
+Feyenoord,Rótterdam,Netherlands,Stadion Feijenoord,51777,Natural
+SVV,Schiedam,Netherlands,Stadion Harga,4000,
+Heerenveen,Heerenveen,Netherlands,Abe Lenstra Stadion,26800,Natural
+Olympique,Marseille,France,Stade Vélodrome,67394,Natural
+Montpellier,Montpellier,France,Stade de la Mosson,32950,Natural
+Toulouse,Toulouse,France,Stadium Municipal,35472,Natural
+Sporting Toulon,Toulon,France,Stade de Bon-Rencontre,8000,
+Nantes,Nantes,France,Stade de la Beaujoire - Louis Fonteneau,38285,Natural
+Lille,Lille,France,Stade Pierre-Mauroy,49834,Natural
+Sochaux,Sochaux,France,Stade Auguste-Bonal,20005,Natural
+PSG,Paris,France,Parc des Princes,49691,Natural
+Nice,Nice,France,Allianz Riviera,35624,Natural
+Girondins Bordeaux,Bordeaux,France,Stade Matmut-Atlantique,42115,Natural
+Metz,Metz,France,Stade Saint-Symphorien,26661,Natural
+Monaco,Principado de Mónaco,France,Louis II,18521,Natural
+Racing Paris,París,France,,"14,000",Grass
+Auxerre,Auxerre,France,Stade de l'Abbé Deschamps,23467,Natural
+Caen,Caen,France,Stade Michel d'Ornano,21215,Natural
+Stade Brestois,26 route de Quimper29200 Brest,France,Stade Francis-Le Blé,15931,Natural
+Saint-Étienne,Saint-Étienne,France,Stade Geoffroy-Guichard,42000,Natural
+Cannes,Cannes,France,Stade Pierre de Coubertin,12800,
+Olympique Lyonnais,Lyon,France,Parc Olympique Lyonnais,59168,Natural
+FC Mulhouse,Mulhouse,France,Stade de l'Ill,11303,Grass
+Stade Rennais,Rennes,France,Roazhon Park,31127,Natural
+Nancy,Tomblaine,France,Stade Marcel Picot,20087,Césped Artificial
+Le Havre,Havre,France,Stade Océane,25178,Natural
+Nîmes,Nimes,France,Stade des Costières,18482,Natural
+Lens,Lens,France,Stade Bollaert-Delelis,38223,Natural
+Strasbourg,Strasbourg,France,Stade de la Meinau,29230,Natural
+Valenciennes,Valenciennes,France,Stade du Hainaut,24926,Natural
+FC Martigues,Martigues,France,Stade Francis Turcan,11500,grass
+Angers SCO,Angers,France,Stade Raymond-Kopa,17835,AirFibr 
+Bastia,Bastia,France,Stade Armand Césari,16078,Natural
+Guingamp,Guingamp,France,Stade du Roudourou,18363,Natural
+FC Gueugnon,Gueugnon,France,Stade Jean Laville,13872,grass
+Chateauroux,Châteauroux,France,Stade Gaston Petit,17072,Césped Artificial
+Lorient,Lorient,France,Stade Yves Allainmat - Le Moustoir,18970,Césped Artificial
+Troyes,Troyes,France,Stade de l'Aube,20842,Natural
+Sedan,Sedán,France,Louis-Dugauguez,24000,
+Ajaccio,Ajaccio,France,Stade François Coty,10660,Natural
+Le Mans,Mulsanne,France,MMArena,25064,Natural
+Istres,Istres,France,Stade Parsemain,17363,Natural
+Grenoble,Grenoble,France,Des Alpes,20068,Natural
+Boulogne,Boulogne-sur-Mer,France,Stade de la Libération,15242,Natural
+Arles,Arles,France,,17500,
+Evian Thonon Gail.,Annecy,France,Parc des Sports,15660,Natural
+Dijon FCO,Dijon,France,Stade Gaston Gérard,15995,Natural
+Stade de Reims,Reims,France,Auguste-Delaune II,21628,Natural
+Gazélec Ajaccio,Ajaccio,France,Stade Municipal Ange Casanova Stiletto,4229,Natural
+Amiens SC,Amiens,France,Stade de la Licorne,12097,Natural
+Charleville,Charleville-M�zi�res,France,,3000,
+Épinal,Épinal,France,Stade de La Colombière,7200,
+Stade Poitevin,Poitiers,France,Stade de la Pépinière,15750,Grass
+Stade Lavallois,Laval,France,Stade Francis Le Basser,18467,Natural
+Perpignan,Perpignan,France,,3400,
+Dunkerque,Dunkerque,France,Stade Marcel-Tribut,4200,Natural
+Valence,Valence,France,,15128,Grass
+Red Star,París,France,Stade Bauer,10000,
+Louhans Cuiseaux,Louhans,France,Parc des Sports du Bram,8400,
+Olympique Alès,Ales,France,Stade Pierre Pibarot,9000,Grass
+Niort,Niort,France,Stade René Gaillard,10898,Natural
+Stade Briochin,Saint-Brieuc,France,Stade Fred Aubert,13500,Natural grass
+Beauvais Oise,Beauvais,France,Stade Pierre-Brisson,10000,
+ES Wasquehal,Wasquehal,France,Complexe Sportif Lucien Montagne,500,
+Creteil,rue vasco de gama,France,Stade Dominique Duvauchelle,12050,Natural
+Clermont,Clermont-Ferrand,France,Stade Gabriel Montpied,10363,Natural
+Besancon RC,Besançon,France,Stade Léo-Lagrange,15000,Grass
+FC Rouen 1899,Rouen,France,,"12,018",Grass
+Sète,Sète,France,Stade Louis-Michel,8700,
+Libourne Saint Se.,Libourne,France,,8000,
+Tours,Tours,France,Stade de la Vallée du Cher,11912,Natural
+Vannes,Vannes,France,Stade de la Rabine,9143,Natural
+CA Bastia,Furiani,France,,"16,048",Grass
+Orléans,Orléans,France,Stade de la Source,5000,Natural
+Paris FC,Paris,France,Stade Sébastien Charléty,20000,Natural
+Bourg-Péronnas,Ain,France,Stade Muncipal de Péronnas,2541,Natural
+Quevilly,Normandia,France,Stade Robert-Diochon,12018,
+Béziers,Béziers,France,Stade de Sauclières,12000,
+Rodez,Rodez,France,Stade Paul-Lignon,6000,
+Chambly,Chambly,France,Stade des Marais,1000,
+Pau FC,Pau,France,Stade du Hameau,13966,
+Man. Utd,Mánchester,England,Old Trafford,76212,Natural
+Liverpool,Liverpool,England,Anfield,54074,Natural
+Tottenham Hotspur,Londres,England,Tottenham Hotspur Stadium,62062,Natural
+Chelsea,Londres,England,Stamford Bridge,41841,Natural
+Aston Villa,Birmingham,England,Villa Park,42788,Natural
+Southampton,Southampton,England,St. Mary's Stadium,32689,Natural
+Everton,Liverpool,England,Goodison Park,40569,Natural
+Arsenal,Londres,England,Emirates Stadium,60355,Natural
+Blackpool,Blackpool,England,Bloomfield Road,17625,Natural
+Sporting Braga,Braga,Portugal,Estádio Municipal de Braga,30286,Natural
+Benfica,Lisboa,Portugal,Estádio da Luz,65647,Natural
+Porto,Oporto,Portugal,Estádio Do Dragão,50948,Natural
+Sporting CP,Lisboa,Portugal,José Alvalade,50486,Natural
+Chaves,Chaves,Portugal,Estádio Municipal Eng. Manuel Branco Teixeira,12000,Natural
+Feirense,Santa Maria da Feira,Portugal,Estádio Marcolino de Castro,4667,Natural
+Belenenses,Lisboa,Portugal,Estádio do Restelo,32500,Natural
+Beira Mar SC,Aveiro,Portugal,Municipal de Aveiro,30000,
+Portimonense,Portimão,Portugal,Estádio do Portimonense SC,9544,Natural
+Tirsense,Santo Tirso,Portugal,,12000,
+Boavista,Oporto,Portugal,Bessa Século XXI,30000,Natural
+Marítimo,Funchal,Portugal,Estádio dos Barreiros,8992,Natural
+Estrela Amadora,Amadora,Portugal,,"9,288",Grass
+Vitória,Guimarães,Portugal,Estádio Dom Afonso Henriques,30165,Natural
+Penafiel,Penafiel,Portugal,Estádio Municipal 25 de Abril,6500,Natural
+União Madeira,Funchal,Portugal,Estádio Municipal de Machico,3300,Natural
+Nacional,Madeira,Portugal,Estádio da Madeira,8589,Natural
+Vitória Setúbal,Setúbal,Portugal,Estádio do Bonfim,18694,Natural
+Farense,Faro,Portugal,Estádio de São Lúis,12000,Natural
+Famalicão,Famalicão,Portugal,Estádio Municipal 22 de Junho,8000,
+SC Salgueiros,Porto,Portugal,,3500,
+Gil Vicente,Barcelos,Portugal,Estádio Cidade de Barcelos,12374,Natural
+Paços Ferreira,Paços de Ferreira,Portugal,Estádio da Capital do Móvel,6452,Natural
+Torreense,Torres Vedras,Portugal,,12000,
+Estoril,Estoril,Portugal,Estádio António Coimbra da Mota,8000,Natural
+Espinho,Espinho,Portugal,,7500,
+União de Leiria,Leiria,Portugal,Magalhaes Pessoa,30000,Natural
+FC Felgueiras,Felgueiras,Portugal,,7540,
+Leça FC,Leça,Portugal,,"12,000",
+Campomaiorense,Campo Maior,Portugal,,7500,
+Rio Ave,Vila do Conde,Portugal,Estádio do Rio Ave Futebol Clube,12815,Natural
+Académica,Coimbra,Portugal,Estádio Cidade de Coimbra,30075,Natural
+Varzim,Varzim,Portugal,,11000,
+Alverca,Alverca,Portugal,Complexo Desportivo do FC Alverca,15000,
+CD Santa Clara,Ponta Delgada,Portugal,Estádio de São Miguel,13277,Natural
+Desportivo Aves,Vila das Aves,Portugal,Estádio Clube Desportivo das Aves,8560,Natural
+Moreirense,Moreira de Cónegos,Portugal,Comendador Joaquim Almeida Freitas,9000,Natural
+Naval,Cantabria,Portugal,,1500,
+Leixões,Matosinhos,Portugal,Estádio do Mar,9730,Natural
+Trofense,Trofa,Portugal,Estádio do Clube Desportivo Trofense,5074,Natural
+Olhanense,Olhão,Portugal,Estádio José Arcanjo,11662,Natural
+Arouca,Arouca,Portugal,Estádio Municipal de Arouca,2500,Natural
+Tondela,Tondela,Portugal,João Cardoso,7500,Natural
+Real Madrid,Madrid,Spain,Santiago Bernabéu,85454,Natural
+Osasuna,Pamplona,Spain,El Sadar,18761,Natural
+Atlético,Madrid,Spain,Wanda Metropolitano,68000,Natural
+Real Valladolid,Valladolid,Spain,Municipal José Zorrilla,26512,Natural
+CD Logroñés,Logroño,Spain,,"16,000",Grass
+Sevilla,Sevilla,Spain,Ramón Sánchez Pizjuán,42714,Natural
+Athletic,Bilbao,Spain,San Mamés,53332,Natural
+Real Zaragoza,Zaragoza,Spain,La Romareda,34596,Natural
+CD Málaga,Málaga,Spain,,"30,044",Grass
+Real Oviedo,Oviedo,Spain,Carlos Tartiere,30500,Césped Natural
+CD Castellón,Castellon de la Plana,Spain,Municipal de Castalia,15700,Cesped natural
+Celta,Vigo,Spain,Abanca Balaídos,28700,Natural
+Valencia,Valencia,Spain,Mestalla,55000,Natural
+Barcelona,Barcelona,Spain,Camp Nou,99787,Natural
+Real Sporting,Gijón,Spain,El Molinón-Enrique Castro Quini,30000,Natural
+R. Sociedad,San Sebastián,Spain,Anoeta,32076,Natural
+Cádiz,Cádiz,Spain,Nuevo Ramón de Carranza,25033,Césped natural
+Mallorca,Palma de Mallorca,Spain,Visit Mallora Estadi,23142,Natural
+Tenerife,Santa Cruz de Tenerife,Spain,Heliodoro Rodríguez López,24000,Natural
+Rayo Vallecano,Puente de vallecas,Spain,Vallecas,15500,Natural
+Real Burgos CF,Burgos,Spain,San Amaro,1000,
+Real Betis,Sevilla,Spain,Benito Villamarín,60721,Natural
+Espanyol,Cornellá de Llobregat,Spain,RCDE Stadium,40423,Natural
+Albacete,Albacete,Spain,Carlos Belmonte,17200,Césped natural
+Deportivo,La Coruña,Spain,Municipal Riazor,34600,Natural
+Racing,Santander,Spain,Campos de Sport de El Sardinero,22222,Césped natural
+Lleida,Lleida,Spain,,13500,
+Compostela,Santiago de Compostela,Spain,Estadio Municipal Vero Boquete de San Lázaro,13000,Césped Natural
+Mérida CP,Mérida ,Spain,,14600,
+UD Salamanca,Salamanca,Spain,Helmántico,17341,Césped Natural
+Hércules,Alicante,Spain,José Rico Pérez,29500,Natural
+CF Extremadura,Almendralejo,Spain,,"11,580",grass
+Alavés,Vitoria,Spain,Mendizorroza,19940,Natural
+Villarreal,Villarreal,Spain,Estadio de la Cerámica,24500,Natural
+Málaga,Málaga,Spain,La Rosaleda,30044,Natural
+Numancia,Soria,Spain,Nuevo Los Pajaritos,8727,Natural
+Las Palmas,Las Palmas de Gran Canaria,Spain,Gran Canaria,32400,Natural
+Recreativo,Huelva,Spain,Nuevo Colombino,21670,Natural
+Real Murcia,Murcia,Spain,Enrique Roca de Murcia,31179,Natural
+Levante,Valencia,Spain,Ciutat de Valencia,25354,Natural
+Getafe,Getafe,Spain,Coliseum Alfonso Pérez,17700,Natural
+Gimnàstic,Tarragona,Spain,Nou Estadi,14591,Natural
+Almería,Almería,Spain,Juegos del Mediterráneo,15200,Natural
+Xerez,Jerez de la Frontera,Spain,Estadio de la Juventud,5700,Césped natural
+Granada,Granada,Spain,Nuevo Los Cármenes,19336,Natural
+Elche,Elche,Spain,Martínez Valero,33732,Natural
+Eibar,Eibar,Spain,Municipal de Ipurua,8164,Natural
+Córdoba,Córdoba,Spain,Municipal Nuevo Arcángel,21822,Natural
+Leganés,Leganés,Spain,Municipal de Butarque,11454,Césped natural
+Girona,Girona,Spain,Montilivi,11056,Natural
+Huesca,Huesca,Spain,El Alcoraz,7638,Natural
+Sabadell,Sabadell,Spain,Nova Creu Alta,11981,Natural
+Bilbao Ath.,Bilbao,Spain,Instalaciones de Lezama,2500,Natural
+UE Figueres,Figueras,Spain,Municipal de Vilatenim,9472,Césped Artificial
+Palamós,Palamós,Spain,Nou Estadi Municipal Palamós,5824,Natural
+Atlético B,Madrid,Spain,Cerro del Espino,3900,Césped natural
+Sestao Sport Club,Sestao,Spain,,8905,
+RM Castilla,Madrid,Spain,Alfredo Di Stéfano,6000,Natural
+Orihuela CF,Orihuela,Spain,Municipal Los Arcos,7000,Césped natural
+Real Avilés,Avilés,Spain,Román Suárez Puerta,5400,Césped natural
+Barcelona B,Barcelona,Spain,Estadio Johan Cruyff,6000,Natural
+Atlético Marbella,Marbella,Spain,,"7,300",
+CD Badajoz,Extremadura,Spain,,"14,175",natural grass
+Lugo,Lugo,Spain,Estadio Anxo Carro,7250,Natural
+CD Toledo,Toledo,Spain,Municipal Salto del Caballo,5500,Césped natural
+CD Ourense,Ourense,Spain,,5658,
+Écija Balompié,Écija,Spain,Municipal San Pablo,4000,Natural
+Real Jaén,Jaén,Spain,Municipal La Victoria,12569,Natural
+Mallorca B,Palma de Mallorca,Spain,Son Bibiloni (Antonio Asensio),1500,Césped natural
+Universidad LPGC,Gran Canarias,Spain,,3000,Artificial
+Racing Ferrol,Ferrol,Spain,A Malata,12043,Césped natural
+Burgos,Burgos,Spain,Municipal de El Plantío,12200,Césped Natural
+Poli Ejido,Ejido,Spain,Municipal De Santo Domingo,7870,Césped natural
+Terrassa FC,Tarrassa,Spain,Olímpic de Terrassa,11500,Césped Artificial
+Ciudad de Murcia,Murcia,Spain,,"6,500",grass
+At. Malagueño,Málaga,Spain,Ciudad Deportiva de la Federación Malagueña,2000,Césped natural
+Algeciras,Algeciras,Spain,Nuevo Mirador,8209,Césped natural
+Pontevedra,Pontevedra,Spain,Estadio Municipal de Pasarón,10500,Césped natural
+Lorca Deportiva,Lorca,Spain,,"8,120",Grass
+Ponferradina,Ponferrada,Spain,Municipal El Toralín,8800,Natural
+Vecindario,Las Palmas,Spain,,4500,
+Sevilla At.,Sevilla,Spain,Estadio Jesús Navas,6000,Natural
+Granada 74,Granada,Spain,,4400,
+Alicante,Alicante,Spain,,4000,
+F.C. Cartagena,Cartagena,Spain,Cartagonova,15105,Césped natural
+Villarreal B,Villarreal,Spain,Ciudad Deportiva Del Villarreal,5000,Natural
+Real Unión Irún,Irun,Spain,Stadium Gal,5600,Natural
+Alcorcón,Alcorcón,Spain,Santo Domingo,5000,Natural
+Alcoyano,Alcoy,Spain,El Collao,4850,Natural
+CD Guadalajara,Guadalajara,Spain,Pedro Escartín,5000,Natural
+Mirandés,Miranda del Ebro,Spain,Estadio Municipal de Anduva,5759,Natural
+Llagostera,Llagostera,Spain,Camp d’Esports Municipal de Llagostera,1400,Césped natural
+Reus Deportiu,Reus,Spain,,4300,
+UCAM Murcia,Murcia,Spain,BeSoccer La Condomina,6014,Césped natural
+Lorca FC,Lorca,Spain,Francisco Artés Carrasco,8120,Césped natural
+Cultural Leonesa,León,Spain,Municipal Reino de León,13451,Césped Natural
+Extremadura,Almendralejo,Spain,Francisco de la Hera,11580,Césped natural
+Rayo Majadahonda,Majadahonda,Spain,Cerro del Espino,3900,Natural
+Fuenlabrada,Fuenlabrada,Spain,Fernando Torres,6000,Natural
+FC Cartagena,Cartagena,Spain,Cartagonova,15105,Césped natural
+UD Logroñés,Logroño,Spain,Las Gaunas,16250,Césped Natural
+FC Maia,Cidade da Maia,Portugal,,9000,
+Academico Viseu,Viseu,Portugal,Estádio Municipal do Fontelo,14368,Natural
+Uniao Lamas,Santa Maria da Feira,Portugal,,9000,Grass
+Esposende,Esposende,Portugal,,5000,
+SC Freamunde,Freamunde,Portugal,,4000,
+SP. Covilhã,Covilhã,Portugal,Estádio Municipal José dos Santos Pinto,6125,Natural
+Imortal,Albufeira,Portugal,,3500,
+Ovarense,Ovar,Portugal,,3200,
+FC Marco,Marco de Canaveses,Portugal,,10000,
+UD Oliveirense,Aveiro,Portugal,Estádio Carlos Osório,2670,Natural
+Gondomar,Gondomar,Portugal,San Miguel,2450,
+Vizela,Vizela,Portugal,Estádio do Futebol Clube de Vizela,7000,
+FC Barreirense,Barreiro,Portugal,,2000,
+Ol. Moscavide,Moscavide,Portugal,,3325,
+Fatima,Fatima,Portugal,Papa Francisco,1545,
+Carregado,Carregado,Portugal,,1000,
+Atlético CP,Lisboa,Portugal,Estádio da Tapadinha,10000,Natural
+Benfica II,Lisboa,Portugal,Caixa Futebol Campus,2720,Natural
+Porto II,Oporto,Portugal,Estádio Dr. Jorge Sampaio,8500,Natural
+Sporting Braga II,Braga,Portugal,Estádio 1º de Maio,28800,Natural
+Marítimo II,Madeira,Portugal,Campo da Imaculada Conceição,2000,Natural
+Sporting CP II,Lisboa,Portugal,Academia Sporting,50466,Natural
+Oriental Lisboa,Lisbon,Portugal,Campo Engenheiro Carlos Salema,8500,
+Mafra,Mafra,Portugal,,1257,
+Cova Piedade,Piedade,Portugal,Estádio Municipal José Martins Vieira,3500,
+Fafe,Fafe,Portugal,,8000,
+Real Sport Clube,Queluz,Portugal,Complexo Desportivo do Real SC,3600,
+Casa Pia,Lisboa,Portugal,,5000,
+Vilafranquense,Vila Franca de Xira,Portugal,,2500,
+Milan,Milano,Italy,San Siro,82995,Natural
+Sampdoria,Génova,Italy,Stadio Luigi Ferraris,36703,Natural
+Inter,Milano,Italy,Stadio Giuseppe Meazza,82995,Natural
+Napoli,Nápoles,Italy,San Paolo,76824,Natural
+Genoa,Génova,Italy,Stadio Comunale Luigi Ferraris,36703,Natural
+Atalanta,Bérgamo,Italy,Stadio Atleti Azzurri d'Italia,24726,Natural
+Fiorentina,Firenze,Italy,Stadio Artemio Franchi,47290,Natural
+Juventus,Turín,Italy,Juventus Stadium,41000,Natural
+SSC Bari,Bari,Italy,Stadio Comunale San Nicola,58270,Natural
+Udinese,Údine,Italy,Dacia Arena,25000,Natural
+Roma,Roma,Italy,Stadio Olimpico di Roma,70634,Natural
+Bologna,Bolonia,Italy,Stadio Renato Dall'Ara,36532,Natural
+Cremonese,Cremona,Italy,Stadio Giovanni Zini,20034,Natural
+Lecce,Lecce,Italy,Stadio Via del Mar,36285,Natural
+Hellas Verona,Verona,Italy,Stadio Marc'Antonio Bentegodi,44799,Natural
+Ascoli,Ascoli Piceno,Italy,Stadio Cino e Lillo Del Duca,20853,Natural
+Lazio,Roma,Italy,Stadio Olimpico,82656,Natural
+Cesena,Cesena,Italy,Stadio Dino Manuzzi,24026,Césped Artificial
+Pisa,Pisa,Italy,Arena Garibaldi - Stadio Romeo Anconetani,17500,Natural
+Torino,Turín,Italy,Stadio Olimpico di Torino,27994,Natural
+Parma,Parma,Italy,Ennio Tardini,28783,Natural
+Cagliari,Cagliari,Italy,Sardegna Arena,16200,Natural
+Calcio Foggia,Foggia,Italy,,25085,Grass
+Pescara,Pescara,Italy,Stadio Adriatico-Giovanni Cornacchia,23800,Natural
+Brescia,Brescia,Italy,Stadio Mario Rigamonti,27547,Natural
+Ancona,Ancona,Italy,,23976,
+Reggiana,Reggio Emilia,Italy,Stadio Città del Tricolore,29546,Natural
+Piacenza,Piacenza,Italy,Leonardo Garilli,21668,Natural
+Padova,Padua,Italy,Stadio Comunale Euganeo,32420,Natural
+Vicenza ,Vicenza,Italy,Stadio Romeo Menti,20920,Natural
+Perugia,Perugia,Italy,Stadio Renato Curi,28000,Natural
+Empoli,Empoli,Italy,Carlo Castellani,21113,Natural
+Chievo,Verona,Italy,Stadio Marc'Antonio Bentegodi,44799,Natural
+Venezia,Venecia,Italy,Stadio Pierluigi Penzo,7450,Natural
+Reggina,Reggina,Italy,Stadio Oreste Granillo,27763,Natural
+Siena,Siena,Italy,Stadio Comunale Artemio Franchi,15373,Natural
+Modena,Modena,Italy,Stadio Alberto Braglia,20507,Natural
+Livorno,Livorno,Italy,Stadio Armando Picchi,19238,Natural
+Palermo FC,Palermo,Italy,Stadio Renzo Barbera,37242,Natural
+Messina,Messina,Italy,Stadio Comunale San Filippo,37895,Natural
+Treviso,Treviso,Italy,,7500,
+Catania,Catania,Italy,Stadio Angelo Massimino,23420,Natural
+Novara,Novara,Italy,Stadio Comunale Silvio Piola,17875,Césped Artificial
+Sassuolo,Reggio Emilia,Italy,Stadio Città del Tricolore,29546,Natural
+Frosinone,Frosinone,Italy,stadio Benito Stirpe,16227,Natural
+Carpi,Carpi,Italy,Stadio Sandro Cabassi,4164,Natural
+Crotone,Crotone,Italy,Ezio Scida,16640,Natural
+SPAL,Ferrara,Italy,Stadio Paolo Mazza,17900,Natural
+Benevento,Benevento,Italy,Stadio Ciro Vigorito,18900,Natural
+Spezia,La Spezia,Italy,Stadio Alberto Picco,10336,Césped Artificial
+Salernitana,Salerno,Italy,Stadio Arechi,37245,Natural
+Fidelis Andria,Andria,Italy,,"9,140",Grass
+Acireale,Acireale,Italy,,6800,
+Como,Como,Italy,Stadio Giuseppe Sinigaglia,13602,Natural
+Cosenza Calcio,Cosenza,Italy,,"20,987",Grass
+Lucchese Libertas,Lucca,Italy,Porta Elisa,12800,
+Avellino,Avellino,Italy,Stadio Partenio,10215,Natural
+Pistoiese,Pistoia,Italy,,"13,195",Grass
+Ravenna FC,Ravenna,Italy,Stadio Bruno Benelli,"12,020",natural
+Castel Sangro,Castel di Sangro,Italy,,7220,Grass
+Castel di Sangro,Castel di Sangro,Italy,,7220,
+AC Monza,Monza,Italy,Stadio Comunale Brianteo,18568,Natural
+Ternana Calcio,Terni,Italy,Stadio Libero Liberati,20100,Natural
+AlzanoCene,Alzano Lombardo,Italy,,1900,
+FC Savoia 1908,Savoia,Italy,,12750,
+Fermana,Fermana,Italy,,8850,
+Cittadella,Cittadella,Italy,Stadio Pier Cesare Tombolato,7623,Natural
+Triestina ,Trieste,Italy,Nereo Rocco,28565,Natural
+AlbinoLeffe,Bérgamo,Italy,Stadio Atleti Azzurri d'Italia,24726,Natural
+AC Arezzo,Toscana,Italy,,"13,128",Grass
+Catanzaro,Catanzaro,Italy,Stadio Nicola Ceravolo,14650,Natural
+Rimini,Rimini,Italy,Stadio Romeo Neri,9798,Natural
+Mantova,Mantova,Italy,Stadio Danilo Martelli,14854,Natural
+Grosseto,Grosseto,Italy,Stadio Olimpico Carlo Zecchini,9779,Natural
+Gallipoli ,Gallipoli,Italy,,5000,Artificial
+Calcio,Foggia,Italy,,16000,
+Varese,Varese,Italy,Stadio Franco Ossola,9926,Natural
+Juve Stabia,Castellammare di Stabia,Italy,Stadio Comunale Romeo Menti,7642,Césped Artificial
+Nocerina,Nocera Inferiore,Italy,Stadio San Francesco,9998,Natural
+AS Gubbio 1910,Gubbio,Italy,Stadio Pietro Barbetti,4160,natural
+Pro Vercelli,Vercelli,Italy,Stadio Silvio Piola,6165,Césped Artificial
+Virtus Lanciano,Lanciano,Italy,,"5,639",Grass
+Trapani,Trapani,Italy,Stadio Polisportivo Provinciale,6766,Natural
+Latina,Latina,Italy,Stadio Comunale Domenico Francioni,8000,Natural
+Virtus Entella,Chiavari,Italy,Stadio Comunale Chiavari,4154,Césped Artificial
+Nuova Cosenza,Cosenza,Italy,Stadio San Vito,24209,Natural
+Pordenone,Pordenone,Italy,,3089,
+Bourges 18,Bourges,France,,"13,000",
