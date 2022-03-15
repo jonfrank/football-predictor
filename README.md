@@ -30,3 +30,21 @@ Some general findings:
 1. pitch surface
 1. which round ... some teams might be better earlier or later in the season?
 1. how about newly-promoted? (we would need to engineer this feature later on)
+
+## Calculating win/loss streaks
+
+This turned out to be a thorny problem. Various attempts by myself and others to use elegant `groupby`-style methods just didn't work. And it can be pretty hard to debug those with all the pandas alchemy going on behind the scenes.
+
+Instead I took a rather less elegant approach:
+1. create a new zero-filled column for each team, named as the team name
+1. for each match, if either team won, put a 1 in their column and a -1 in the losing team's column
+1. loop through each season and each team, and for each case create streak data on that subframe; `concat` all those together
+1. for each row, copy the team's streak info into either the `home_streak` or the `away_streak` column, depending on where they are playing
+1. use `groupby('link').sum()` to combine the matching pairs of rows - there'll be two for each match, one for the home team and one away
+1. `merge` this resulting frame back into the main dataframe
+
+Checks of subframes for a particular season and team suggest that it's working.
+
+#### Potential improvements:
+1. track draws as well rather than effectively ignoring them
+1. check that we're accurate on the streak being about games completed **prior** to the game in hand - not sure whether this is right yet.
