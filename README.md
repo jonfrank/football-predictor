@@ -45,6 +45,30 @@ Instead I took a rather less elegant approach:
 
 Checks of subframes for a particular season and team suggest that it's working.
 
+## Joining datasets
+
+Several datasets required joining based on team names - constructing the `link` which could then be used as a common key. But the team names were far from identical - in fact there were significant differences. First I attempted to use `difflib.get_close_matches`; this gave reasonably good results, but there were several teams that failed to match properly. I then discovered a library called [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) which implements Levenshtein Distance, and turned out to deliver superb matching results. Once I had corrected for Manchester (from "Man.") it seems to be flawless (although I haven't done an exhaustive check).
+
 #### Potential improvements:
 1. track draws as well rather than effectively ignoring them
 1. check that we're accurate on the streak being about games completed **prior** to the game in hand - not sure whether this is right yet.
+
+## Milestone 2: Feature Engineering
+
+Feature engineering is the work to develop new or calculated information about each of the datapoints. The aim is to give more dimensions of data for a model to learn from. It's not that more is necessarily better, but by having more options to choose from you are more likely to be able to find the few features that will drive a strongly-performing model.
+
+The [Elo rating](http://clubelo.com/System) for each team as at the point of each match taking place was supplied as a [pickle](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter11.03-Pickle-Files.html) file. This was unpickled and then joined onto the match result dataframe.
+
+In addition to the streaks described above, I added the following features:
+- cumulative F/A goals at home and away
+- is the team newly promoted or relegated this season?
+
+Then finally I performed some very basic normalisation, changing the season (year) to be the number of years before 2022, and the capacity to be in tens of thousands.
+
+The pipeline was set up assuming that the provided files were already downloaded to the local directory. I simply took the actions in the cells of the notebook and brought them together into a python script, adding some console logging, including progress bars using `tqdm`. (Note: there's a 5-10 minute chunk at the end which doesn't log or show progress - I should address this otherwise it looks like the script has hung.)
+
+The pipeline script outputs a CSV file `cleaned_dataset.csv`.
+
+### TODO:
+
+1. The data being uploaded so far to RDS lacks any kind of unique key / identifier. What we should do is retain the `link` field and upload that to ensure we don't end up with duplicates. Then this just needs to be dropped before passing everything else into the models.
