@@ -317,11 +317,10 @@ def home_or_away(row):
         return 0, row[team_name + '_streak'] * row[team_name + '_streak_result']
 
 # TODO: there's something very very slow taking place in the section below
-# the terminal just hangs for around 10 minutes
-# need to find where this is happening and use tqdm
 
 # use this function to add the home_stream and away_streak cols to the df
 all_streaks_df['home_streak'], all_streaks_df['away_streak'] = zip(*all_streaks_df.progress_apply(home_or_away, axis=1))
+print('more processing... hang on...')
 # and then just keep the key columns, drop the teams now that they've been copied into the home_streak and away_streak cols - we're done with them
 just_streaks_df = all_streaks_df[['link','home_streak','away_streak']].copy()
 # combine the pairs together - for the same match (=link) we have the home_streak in one row and away_streak in another
@@ -339,11 +338,13 @@ df7['home_newly_promoted'] = df7['home_newly_promoted'].apply(bool_to_int)
 df7['away_newly_promoted'] = df7['away_newly_promoted'].apply(bool_to_int)
 df7['home_newly_relegated'] = df7['home_newly_relegated'].apply(bool_to_int)
 df7['away_newly_relegated'] = df7['away_newly_relegated'].apply(bool_to_int)
-df7_trimmed = df7.drop(columns=['link','referee','home_yellow','home_red','away_yellow','away_red','date_dt','home_team','away_team','result','round','home_goals','away_goals','total_goals','city','country','stadium','pitch','link_index','home_win','away_win','draw'])
+df7_trimmed = df7.drop(columns=['referee','home_yellow','home_red','away_yellow','away_red','date_dt','home_team','away_team','result','round','home_goals','away_goals','total_goals','city','country','stadium','pitch','link_index','home_win','away_win','draw'])
 df7_trimmed['season'] = df7_trimmed['season'].apply(lambda s: 2022-int(s))
 df7_trimmed['capacity'] = df7_trimmed['capacity']/10000
 df_numeric = df7_trimmed.drop(columns='league')
+# first two cols should be link then outcome
 df_numeric.insert(0, 'outcome', df_numeric.pop('outcome'))
+df_numeric.insert(0, 'link', df_numeric.pop('link'))
 
 print('writing CSV')
 df_numeric.to_csv('cleaned_dataset.csv', index=False)
