@@ -7,6 +7,7 @@ import numpy as np
 import dtale
 import seaborn as sns
 import matplotlib.pyplot as plt
+from fuzzywuzzy import process
 plt.rcParams["figure.figsize"] = (20,8)
 tqdm.pandas() # for progress_apply
 
@@ -108,7 +109,6 @@ match_df['away_team'] = match_df.apply(lambda row: row['link_parts'][-2], axis=1
 match_df['season'] = match_df.apply(lambda row: row['link_parts'][-1], axis=1)
 match_df = match_df.drop(['date_new'], axis=1)
 
-from fuzzywuzzy import process
 df_teams = df['home_team'].unique()
 match_teams = match_df['home_team'].unique()
 # needs a tweak for Manchester to give a helping hand on those two teams
