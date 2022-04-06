@@ -4,8 +4,8 @@ from fuzzywuzzy import process
 from datetime import datetime
 
 league_id = 'E0'
-home_team = 'tottenham'
-away_team = 'liverpool'
+home_team = 'brighton'
+away_team = 'norwich'
 
 def res_int(res):
     return 1 if res=='H' else -1 if res=='A' else 0

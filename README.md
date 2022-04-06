@@ -69,6 +69,7 @@ The pipeline was set up assuming that the provided files were already downloaded
 
 The pipeline script outputs a CSV file `cleaned_dataset.csv`.
 
-### TODO:
+## Milestone 3: Upload the data to the database
 
-1. The data being uploaded so far to RDS lacks any kind of unique key / identifier. What we should do is retain the `link` field and upload that to ensure we don't end up with duplicates. Then this just needs to be dropped before passing everything else into the models.
+I created an RDS instance in AWS, ensuring that the security group in use allowed access on the PostgreSQL port 5432 from my IP address. I used `psycopg2` to connect to the database, and then created an `sqlalchemy` engine. This enables a ridiculously easy way to push data from a `pandas` `dataframe` up to the database table, just by calling `df.to_sql`. Using the `if_exists='replace'` parameter means that any repeat data (sharing the same match link, which is set as our primary key) will be overwritten rather than duplicated.
+
