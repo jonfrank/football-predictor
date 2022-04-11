@@ -2,10 +2,15 @@ import pandas as pd
 import numpy as np
 from fuzzywuzzy import process
 from datetime import datetime
+import re
+import joblib
+
+from besoccer_scraper import Scraper
 
 league_id = 'E0'
-home_team = 'brighton'
-away_team = 'norwich'
+league_name = 'premier_league'
+
+prediction_labels = ['','no-score draw','score draw','home win','away win']
 
 def res_int(res):
     return 1 if res=='H' else -1 if res=='A' else 0
@@ -42,28 +47,49 @@ def goals(team, results):
 
 def streaks(home, away, results):
     match_teams = results['HomeTeam'].unique()
-    matched_team_name = process.extractOne(home, match_teams)[0]
-    home_streak = streak_feature(matched_team_name, results)
-    home_goals = goals(matched_team_name, results)
-    matched_team_name = process.extractOne(away, match_teams)[0]
-    away_streak = streak_feature(matched_team_name, results)
-    away_goals = goals(matched_team_name, results)
-    return home_streak, home_goals, away_streak, away_goals
+    home_matched_team_name = process.extractOne(home, match_teams)[0]
+    home_streak = streak_feature(home_matched_team_name, results)
+    home_goals = goals(home_matched_team_name, results)
+    away_matched_team_name = process.extractOne(away, match_teams)[0]
+    away_streak = streak_feature(away_matched_team_name, results)
+    away_goals = goals(away_matched_team_name, results)
+    return home_matched_team_name, home_streak, home_goals, away_matched_team_name, away_streak, away_goals
 
-elo_df = pd.read_csv('http://api.clubelo.com/{}'.format(datetime.now().strftime("%Y-%m-%d")))
 
-def elos(home, away, league_id):
-    country = {'E':'ENG','D':'GER','S':'ESP','I':'ITA'}[league_id[0]]
-    elo_teams = elo_df.query('Country == @country')
-    match_teams = elo_teams['Club'].unique()
-    matched_team_name = process.extractOne(home, match_teams)[0]
-    home_elo = elo_df.query('Club == @matched_team_name')['Elo'].to_list()[0]
-    matched_team_name = process.extractOne(away, match_teams)[0]
-    away_elo = elo_df.query('Club == @matched_team_name')['Elo'].to_list()[0]
-    return home_elo, away_elo
+# Turns out these Elo values are completely different from those which the model was trained on (from besoccer.com)
+# It might just be a multiplier or something, but we'll revert to using the values scraped from besoccer.com instead
+# elo_df = pd.read_csv('http://api.clubelo.com/{}'.format(datetime.now().strftime("%Y-%m-%d")))
+
+# def elos(home, away, league_id):
+#     country = {'E':'ENG','D':'GER','S':'ESP','I':'ITA'}[league_id[0]]
+#     elo_teams = elo_df.query('Country == @country')
+#     match_teams = elo_teams['Club'].unique()
+#     home_matched_team_name = process.extractOne(home, match_teams)[0]
+#     home_elo = elo_df.query('Club == @home_matched_team_name')['Elo'].to_list()[0]
+#     away_matched_team_name = process.extractOne(away, match_teams)[0]
+#     away_elo = elo_df.query('Club == @away_matched_team_name')['Elo'].to_list()[0]
+#     return home_matched_team_name, home_elo, away_matched_team_name, away_elo
+
+# home_team_elos, home_elo, away_team_elos, away_elo = elos(home_team,away_team,league_id)
+
+football_classifier = joblib.load('football_classifier.pkl')
 
 all_results = league_details(league_id)
-home_streak, home_goals, away_streak, away_goals = streaks(home_team, away_team, all_results)
-home_elo, away_elo = elos(home_team,away_team,league_id)
-print('{} (H) have a streak of {} and elo of {} - goals at home {} F / {} A, away {} F / {} A'.format(home_team, home_streak, home_elo, home_goals[0], home_goals[1], home_goals[2], home_goals[3]))
-print('{} (H) have a streak of {} and elo of {} - goals at home {} F / {} A, away {} F / {} A'.format(away_team, away_streak, away_elo, away_goals[0], away_goals[1], away_goals[2], away_goals[3]))
+
+besoccer_league_data = Scraper(league_name)
+matches, elo_dict = besoccer_league_data.get_next_matches()
+
+be_regex = re.compile(r'^https://www.besoccer.com/match/(.*)/(.*)/.*$')
+for match_details in elo_dict:
+    teams = re.match(be_regex, match_details)
+    home_team = teams.group(1)
+    away_team = teams.group(2)
+    home_team_streaks, home_streak, home_goals, away_team_streaks, away_streak, away_goals = streaks(home_team, away_team, all_results)
+    home_elo, away_elo = elo_dict[match_details]['Elo_home'], elo_dict[match_details]['Elo_away']
+    # print('{} (H) ({}) have a streak of {} and elo of {} - goals at home {} F / {} A, away {} F / {} A'.format(home_team, home_team_streaks, home_streak, home_elo, home_goals[0], home_goals[1], home_goals[2], home_goals[3]))
+    # print('{} (H) ({}) have a streak of {} and elo of {} - goals at home {} F / {} A, away {} F / {} A'.format(away_team, away_team_streaks, away_streak, away_elo, away_goals[0], away_goals[1], away_goals[2], away_goals[3]))
+    features = np.array([home_elo, away_elo,  home_goals[0], home_goals[1], away_goals[0], away_goals[1], home_streak, away_streak], dtype=float).reshape(1,-1)
+    print(home_team, away_team, features)
+    prediction = football_classifier.predict(features)
+    print('Prediction for {} vs {}: {}'.format(home_team, away_team, prediction_labels[prediction[0]]))
+    print('---')

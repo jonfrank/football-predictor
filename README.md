@@ -93,3 +93,11 @@ Having tuned the hyperparameters to get the optimal version of each classifier, 
 By far the weakest performance of all the models was in predicting a draw, whether score or no-score. This is something we could perhaps improve; one idea is to extend the streak feature so that a streak of draws shows up differently from no streak at all (both of them currently showing as zero).
 
 The model is then saved using `sklearn`'s `joblib` (as filename `football_classifier.pkl`).
+
+## Milestone 5: Inference
+
+I started by looking for a decent source of data - and found a downloadable Excel spreadsheet at [football-data.co.uk](https://football-data.co.uk). This gives exactly what's needed: a list of results in the season so far, league by league. Together with the Elo data from [clubelo.com](http://clubelo.com/API) I pulled together the relevant data points for any pair of teams at the current point in the season.
+
+However, I then noticed that the Elo data from `clubelo.com` was completely different from that supplied in the original datasets. So instead I'll need to pick that up via the scraper which Iván shared, which gets data from [besoccer.com](https://besoccer.com).
+
+Predictions for this weekend's games (16/4/22) are rather odd, because the long winning streaks of Man City and Liverpool have been wiped out by their draw on 10/4/22. It might be worth looking at ways to migitate against that kind of thing? Easiest way would be to add a new feature of a rolling net number of wins in the last 5 games (or something like that).
