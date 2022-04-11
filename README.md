@@ -73,3 +73,23 @@ The pipeline script outputs a CSV file `cleaned_dataset.csv`.
 
 I created an RDS instance in AWS, ensuring that the security group in use allowed access on the PostgreSQL port 5432 from my IP address. I used `psycopg2` to connect to the database, and then created an `sqlalchemy` engine. This enables a ridiculously easy way to push data from a `pandas` `dataframe` up to the database table, just by calling `df.to_sql`. Using the `if_exists='replace'` parameter means that any repeat data (sharing the same match link, which is set as our primary key) will be overwritten rather than duplicated.
 
+## Milestone 4: Model training
+
+Early model training was pretty good, hitting around 70% from the start. Everything I tried subsequently either yielded a similar score, or lower. The coefficients from the Lasso model show that the most important features are the streaks, plus the cumulative goals for/against. Interestingly, the Elo coefficients are a fair bit lower, with Home Elo even being pushed to zero (although I retained it in the model).
+
+Disappointingly, the feature of being newly-promoted or -relegated didn't seem to be useful.
+
+In the end, I used the following features:
+- Elo home/away
+- Cumulative goals F/A / home/away
+- Winning/losing streak home/away
+
+I then ran GridSearchCV and RandomSearchCV for each of a number of possible classifiers. Many of these seemed to overfit, and it was difficult to see how to use the GridSearch to check this: the scoring options only seemed to work on the training data, and not additionally on evaluation data, meaning that I could end up with a 99%+ accuracy score but a horribly overfitted model. I ended up having to work quite manually to figure out which hyperparameters were behind this problem, and restrict my searches accordingly.
+
+For example, in the KNN classifier, setting `weights='distance'` resulted in gross over-fitting, so rather than including this hyperparameter in the search, I just fixed it to `uniform` and solely explored the `n_neighbors` parameter.
+
+Having tuned the hyperparameters to get the optimal version of each classifier, I then trained each of these models in turn and evaluated their performance using the separate validation dataset (which had not been used when tuning the hyperparameters, and thus was unseen by these models so far). I showed the training and validation accuracies, together with a confusion matrix.
+
+By far the weakest performance of all the models was in predicting a draw, whether score or no-score. This is something we could perhaps improve; one idea is to extend the streak feature so that a streak of draws shows up differently from no streak at all (both of them currently showing as zero).
+
+The model is then saved using `sklearn`'s `joblib` (as filename `football_classifier.pkl`).
