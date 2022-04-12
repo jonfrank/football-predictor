@@ -3,14 +3,26 @@ import numpy as np
 from fuzzywuzzy import process
 from datetime import datetime
 import re
-import joblib
+
 
 from besoccer_scraper import Scraper
 
+league_names = {"E0":"premier_league", 
+                "E1":"championship", 
+                "D1":"bundesliga", 
+                "D2":"2_liga", 
+                "SP1":"primera_division", 
+                "SP2":"segunda_division", 
+                "P1":"primeira_liga", 
+                "I1":"serie_a", 
+                "I2":"serie_b", 
+                "F1":"ligue_1", 
+                "F2":"ligue_2", 
+                "N1":"eredivisie"
+                }
+
 league_id = 'E0'
 league_name = 'premier_league'
-
-prediction_labels = ['','no-score draw','score draw','home win','away win']
 
 def res_int(res):
     return 1 if res=='H' else -1 if res=='A' else 0
@@ -18,10 +30,9 @@ def res_int(res):
 def result(row, team):
     return res_int(row['FTR']) * (1 if row['HomeTeam']==team else -1)
 
-latest = pd.ExcelFile('https://www.football-data.co.uk/mmz4281/2122/all-euro-data-2021-2022.xlsx')
-
 def league_details(league):
-    return pd.read_excel('https://www.football-data.co.uk/mmz4281/2122/all-euro-data-2021-2022.xlsx', sheet_name=league)
+    # return pd.read_excel('https://www.football-data.co.uk/mmz4281/2122/all-euro-data-2021-2022.xlsx', sheet_name=league)
+    return latest_results[league]
 
 def streak_feature(team_name, results):
     team_results = results.query('HomeTeam == @team_name or AwayTeam == @team_name').copy()
@@ -72,24 +83,28 @@ def streaks(home, away, results):
 
 # home_team_elos, home_elo, away_team_elos, away_elo = elos(home_team,away_team,league_id)
 
-football_classifier = joblib.load('football_classifier.pkl')
-
-all_results = league_details(league_id)
-
-besoccer_league_data = Scraper(league_name)
-matches, elo_dict = besoccer_league_data.get_next_matches()
-
 be_regex = re.compile(r'^https://www.besoccer.com/match/(.*)/(.*)/.*$')
-for match_details in elo_dict:
-    teams = re.match(be_regex, match_details)
-    home_team = teams.group(1)
-    away_team = teams.group(2)
-    home_team_streaks, home_streak, home_goals, away_team_streaks, away_streak, away_goals = streaks(home_team, away_team, all_results)
-    home_elo, away_elo = elo_dict[match_details]['Elo_home'], elo_dict[match_details]['Elo_away']
-    # print('{} (H) ({}) have a streak of {} and elo of {} - goals at home {} F / {} A, away {} F / {} A'.format(home_team, home_team_streaks, home_streak, home_elo, home_goals[0], home_goals[1], home_goals[2], home_goals[3]))
-    # print('{} (H) ({}) have a streak of {} and elo of {} - goals at home {} F / {} A, away {} F / {} A'.format(away_team, away_team_streaks, away_streak, away_elo, away_goals[0], away_goals[1], away_goals[2], away_goals[3]))
-    features = np.array([home_elo, away_elo,  home_goals[0], home_goals[1], away_goals[0], away_goals[1], home_streak, away_streak], dtype=float).reshape(1,-1)
-    print(home_team, away_team, features)
-    prediction = football_classifier.predict(features)
-    print('Prediction for {} vs {}: {}'.format(home_team, away_team, prediction_labels[prediction[0]]))
-    print('---')
+feature_data = []
+# read all sheets
+latest_results = pd.read_excel('https://www.football-data.co.uk/mmz4281/2122/all-euro-data-2021-2022.xlsx', sheet_name=None) 
+
+for league_id, league_name in league_names.items():
+    print(league_id, league_name)
+    all_results = league_details(league_id)
+    besoccer_league_data = Scraper(league_name)
+    matches, elo_dict = besoccer_league_data.get_next_matches()
+    for match_details in elo_dict:
+        teams = re.match(be_regex, match_details)
+        home_team = teams.group(1)
+        away_team = teams.group(2)
+        print(home_team, 'vs', away_team)
+        home_team_streaks, home_streak, home_goals, away_team_streaks, away_streak, away_goals = streaks(home_team, away_team, all_results)
+        home_elo, away_elo = elo_dict[match_details]['Elo_home'], elo_dict[match_details]['Elo_away']
+        feature_data.append([league_name, home_team_streaks, away_team_streaks, home_elo, away_elo,  home_goals[0], home_goals[1], away_goals[0], away_goals[1], home_streak, away_streak])
+    print('-----------------')
+
+cleaned_data = pd.DataFrame(feature_data, columns=['league','home_team','away_team','home_elo','away_elo','home_goals_f','home_goals_a','away_goals_a','away_goals_f','home_streak','away_streak'])
+with open('cleaned_results.csv', 'w') as f:
+    cleaned_data.to_csv(f, index=False)
+print('saved csv')
+
