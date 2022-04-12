@@ -1,0 +1,120 @@
+0,1,2,3
+premier_league,Tottenham,Brighton,home win
+premier_league,Man United,Norwich,home win
+premier_league,Southampton,Arsenal,home win
+premier_league,Watford,Brentford,away win
+premier_league,Newcastle,Leicester,home win
+premier_league,West Ham,Burnley,home win
+premier_league,Wolves,Man City,home win
+premier_league,Aston Villa,Liverpool,home win
+premier_league,Leeds,Chelsea,home win
+premier_league,Everton,Crystal Palace,home win
+championship,Middlesbrough,Huddersfield,home win
+championship,Barnsley,Peterboro,home win
+championship,Blackburn,Stoke,home win
+championship,Blackpool,Birmingham,home win
+championship,Cardiff,Luton,home win
+championship,Coventry,Bournemouth,home win
+championship,Millwall,Hull,home win
+championship,QPR,Derby,home win
+championship,Reading,Swansea,home win
+championship,Bristol City,Sheffield United,home win
+championship,Nott'm Forest,West Brom,home win
+championship,Fulham,Preston,home win
+bundesliga,Dortmund,Wolfsburg,home win
+bundesliga,Mainz,Stuttgart,home win
+bundesliga,Augsburg,Hertha,home win
+bundesliga,Freiburg,Bochum,home win
+bundesliga,Bochum,FC Koln,home win
+bundesliga,Bielefeld,Bayern Munich,home win
+bundesliga,Union Berlin,Ein Frankfurt,home win
+bundesliga,Hoffenheim,Greuther Furth,home win
+bundesliga,Leverkusen,RB Leipzig,home win
+2_liga,Hannover,Fortuna Dusseldorf,home win
+2_liga,Sandhausen,St Pauli,home win
+2_liga,Dresden,Holstein Kiel,score draw
+2_liga,Hamburg,Karlsruhe,home win
+2_liga,Werder Bremen,Nurnberg,home win
+2_liga,Darmstadt,Schalke 04,home win
+2_liga,Heidenheim,Erzgebirge Aue,home win
+2_liga,Hansa Rostock,Regensburg,away win
+2_liga,Ingolstadt,Paderborn,home win
+primera_division,Sociedad,Betis,home win
+primera_division,Elche,Mallorca,score draw
+primera_division,Alaves,Vallecano,home win
+primera_division,Valencia,Osasuna,home win
+primera_division,Getafe,Villarreal,home win
+primera_division,Granada,Levante,home win
+primera_division,Ath Madrid,Espanol,home win
+primera_division,Ath Bilbao,Celta,home win
+primera_division,Sevilla,Real Madrid,home win
+primera_division,Barcelona,Cadiz,home win
+segunda_division,Eibar,Las Palmas,home win
+segunda_division,Amorebieta,Mirandes,home win
+segunda_division,Leganes,Malaga,home win
+segunda_division,Valladolid,Almeria,home win
+segunda_division,Sp Gijon,Oviedo,home win
+segunda_division,Cartagena,Alcorcon,home win
+segunda_division,Ponferradina,Lugo,home win
+segunda_division,Burgos,Ibiza,home win
+segunda_division,Huesca,Zaragoza,home win
+segunda_division,Tenerife,Fuenlabrada,home win
+segunda_division,Girona,Sociedad B,home win
+primeira_liga,Arouca,Santa Clara,home win
+primeira_liga,Famalicao,Gil Vicente,home win
+primeira_liga,Guimaraes,Pacos Ferreira,home win
+primeira_liga,Moreirense,Tondela,home win
+primeira_liga,Maritimo,Boavista,score draw
+primeira_liga,Belenenses,Vizela,score draw
+primeira_liga,Porto,Portimonense,home win
+primeira_liga,Sp Lisbon,Benfica,home win
+primeira_liga,Estoril,Sp Braga,home win
+serie_a,Spezia,Inter,home win
+serie_a,Milan,Genoa,home win
+serie_a,Cagliari,Sassuolo,away win
+serie_a,Sampdoria,Salernitana,home win
+serie_a,Udinese,Empoli,home win
+serie_a,Fiorentina,Venezia,home win
+serie_a,Juventus,Bologna,home win
+serie_a,Lazio,Torino,home win
+serie_a,Napoli,Roma,home win
+serie_a,Atalanta,Verona,home win
+serie_b,Spal,Crotone,home win
+serie_b,Pordenone,Benevento,home win
+serie_b,Reggina,Lecce,home win
+serie_b,Vicenza,Perugia,home win
+serie_b,Cremonese,Cosenza,home win
+serie_b,Cittadella,Alessandria,home win
+serie_b,Parma,Ascoli,home win
+serie_b,Pisa,Como,home win
+serie_b,Ternana,Frosinone,home win
+serie_b,Monza,Brescia,home win
+ligue_1,Rennes,Monaco,home win
+ligue_1,St Etienne,Brest,score draw
+ligue_1,Lille,Lens,home win
+ligue_1,Nice,Lorient,home win
+ligue_1,Metz,Clermont,score draw
+ligue_1,Montpellier,Reims,home win
+ligue_1,Nantes,Angers,home win
+ligue_1,Troyes,Strasbourg,home win
+ligue_1,Lyon,Bordeaux,home win
+ligue_1,Paris SG,Marseille,home win
+ligue_2,Toulouse,Quevilly Rouen,home win
+ligue_2,Pau FC,Auxerre,home win
+ligue_2,Bastia,Guingamp,home win
+ligue_2,Caen,Amiens,home win
+ligue_2,Dijon,Ajaccio,home win
+ligue_2,Dunkerque,Grenoble,away win
+ligue_2,Nancy,Niort,score draw
+ligue_2,Nimes,Sochaux,home win
+ligue_2,Rodez,Paris FC,home win
+ligue_2,Valenciennes,Le Havre,home win
+eredivisie,Waalwijk,Twente,home win
+eredivisie,Heracles,Zwolle,home win
+eredivisie,Groningen,Willem II,home win
+eredivisie,Cambuur,For Sittard,away win
+eredivisie,AZ Alkmaar,Feyenoord,home win
+eredivisie,Vitesse,Utrecht,home win
+eredivisie,Sparta Rotterdam,PSV Eindhoven,home win
+eredivisie,Go Ahead Eagles,Ajax,home win
+eredivisie,Heerenveen,Utrecht,home win
