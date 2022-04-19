@@ -48,13 +48,14 @@ def streak_feature(team_name, results):
     return streak_feature
 
 def goals(team, results):
+    """Returns the total number of home + away goals scored by a team in the season so far"""
     home_matches = results.query('HomeTeam == @team')
-    goals_h_f = home_matches['FTHG'].sum()
-    goals_h_a = home_matches['FTAG'].sum()
+    goals_home_for = home_matches['FTHG'].sum()
+    goals_home_against = home_matches['FTAG'].sum()
     away_matches = results.query('AwayTeam == @team')
-    goals_a_a = away_matches['FTHG'].sum()
-    goals_a_f = away_matches['FTAG'].sum()
-    return goals_h_f, goals_h_a, goals_a_f, goals_a_a
+    goals_away_against = away_matches['FTHG'].sum()
+    goals_away_for = away_matches['FTAG'].sum()
+    return goals_home_for, goals_home_against, goals_away_for, goals_away_against
 
 def streaks(home, away, results):
     match_teams = results['HomeTeam'].unique()
@@ -100,10 +101,10 @@ for league_id, league_name in league_names.items():
         print(home_team, 'vs', away_team)
         home_team_streaks, home_streak, home_goals, away_team_streaks, away_streak, away_goals = streaks(home_team, away_team, all_results)
         home_elo, away_elo = elo_dict[match_details]['Elo_home'], elo_dict[match_details]['Elo_away']
-        feature_data.append([league_name, home_team_streaks, away_team_streaks, home_elo, away_elo,  home_goals[0], home_goals[1], away_goals[0], away_goals[1], home_streak, away_streak])
+        feature_data.append([league_name, home_team_streaks, away_team_streaks, home_elo, away_elo,  home_goals[0], home_goals[1], away_goals[2], away_goals[3], home_streak, away_streak])
     print('-----------------')
 
-cleaned_data = pd.DataFrame(feature_data, columns=['league','home_team','away_team','home_elo','away_elo','home_goals_f','home_goals_a','away_goals_a','away_goals_f','home_streak','away_streak'])
+cleaned_data = pd.DataFrame(feature_data, columns=['league','home_team','away_team','home_elo','away_elo','home_goals_f','home_goals_a','away_goals_f','away_goals_a','home_streak','away_streak'])
 with open('cleaned_results.csv', 'w') as f:
     cleaned_data.to_csv(f, index=False)
 print('saved csv')

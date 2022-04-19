@@ -1,0 +1,120 @@
+league,home,away,prediction
+premier_league,Newcastle,Liverpool,away win
+premier_league,Aston Villa,Norwich,away win
+premier_league,Southampton,Crystal Palace,away win
+premier_league,Tottenham,Leicester,away win
+premier_league,Watford,Burnley,away win
+premier_league,Wolves,Brighton,away win
+premier_league,Leeds,Man City,away win
+premier_league,Everton,Chelsea,away win
+premier_league,West Ham,Arsenal,home win
+premier_league,Man United,Brentford,away win
+championship,Huddersfield,Barnsley,away win
+championship,Luton,Blackpool,away win
+championship,Bournemouth,Fulham,away win
+championship,Birmingham,Millwall,away win
+championship,Derby,Bristol City,away win
+championship,Hull,Reading,away win
+championship,Peterboro,Nott'm Forest,away win
+championship,Sheffield United,Cardiff,away win
+championship,Stoke,QPR,away win
+championship,Swansea,Middlesbrough,away win
+championship,West Brom,Coventry,away win
+championship,Preston,Blackburn,away win
+bundesliga,Wolfsburg,Mainz,away win
+bundesliga,Greuther Furth,Leverkusen,away win
+bundesliga,RB Leipzig,Union Berlin,home win
+bundesliga,Freiburg,Bochum,away win
+bundesliga,Ein Frankfurt,Hoffenheim,away win
+bundesliga,FC Koln,Bielefeld,home win
+bundesliga,Bayern Munich,Dortmund,home win
+bundesliga,Bochum,Augsburg,away win
+bundesliga,Hertha,Stuttgart,away win
+2_liga,Karlsruhe,Ingolstadt,away win
+2_liga,Fortuna Dusseldorf,Dresden,away win
+2_liga,Schalke 04,Werder Bremen,home win
+2_liga,Regensburg,Hamburg,away win
+2_liga,Holstein Kiel,Heidenheim,away win
+2_liga,St Pauli,Darmstadt,away win
+2_liga,Paderborn,Hannover,away win
+2_liga,Nurnberg,Sandhausen,away win
+2_liga,Erzgebirge Aue,Hansa Rostock,away win
+primera_division,Sevilla,Cadiz,away win
+primera_division,Alaves,Villarreal,away win
+primera_division,Real Madrid,Espanol,home win
+primera_division,Valencia,Levante,away win
+primera_division,Ath Bilbao,Ath Madrid,away win
+primera_division,Elche,Osasuna,away win
+primera_division,Granada,Celta,away win
+primera_division,Vallecano,Sociedad,away win
+primera_division,Barcelona,Mallorca,away win
+primera_division,Getafe,Betis,away win
+segunda_division,Tenerife,Huesca,away win
+segunda_division,Sociedad B,Amorebieta,away win
+segunda_division,Cartagena,Girona,away win
+segunda_division,Fuenlabrada,Ponferradina,away win
+segunda_division,Malaga,Eibar,away win
+segunda_division,Alcorcon,Oviedo,away win
+segunda_division,Ibiza,Las Palmas,away win
+segunda_division,Mirandes,Valladolid,away win
+segunda_division,Lugo,Leganes,away win
+segunda_division,Zaragoza,Burgos,away win
+segunda_division,Almeria,Sp Gijon,away win
+primeira_liga,Vizela,Arouca,away win
+primeira_liga,Portimonense,Moreirense,away win
+primeira_liga,Benfica,Famalicao,away win
+primeira_liga,Santa Clara,Maritimo,away win
+primeira_liga,Gil Vicente,Pacos Ferreira,away win
+primeira_liga,Estoril,Belenenses,away win
+primeira_liga,Tondela,Guimaraes,away win
+primeira_liga,Sp Braga,Porto,away win
+primeira_liga,Boavista,Sp Lisbon,away win
+serie_a,Venezia,Atalanta,away win
+serie_a,Torino,Spezia,away win
+serie_a,Inter,Roma,home win
+serie_a,Verona,Sampdoria,home win
+serie_a,Salernitana,Fiorentina,away win
+serie_a,Bologna,Udinese,away win
+serie_a,Empoli,Napoli,away win
+serie_a,Genoa,Cagliari,away win
+serie_a,Lazio,Milan,away win
+serie_a,Sassuolo,Juventus,away win
+serie_b,Ascoli,Cittadella,away win
+serie_b,Alessandria,Reggina,away win
+serie_b,Crotone,Cremonese,away win
+serie_b,Frosinone,Monza,away win
+serie_b,Lecce,Pisa,away win
+serie_b,Cosenza,Pordenone,away win
+serie_b,Benevento,Ternana,away win
+serie_b,Brescia,Spal,away win
+serie_b,Como,Vicenza,away win
+serie_b,Perugia,Parma,away win
+ligue_1,Lyon,Montpellier,away win
+ligue_1,St Etienne,Monaco,away win
+ligue_1,Paris SG,Lens,home win
+ligue_1,Rennes,Lorient,away win
+ligue_1,Clermont,Angers,away win
+ligue_1,Metz,Brest,away win
+ligue_1,Nantes,Bordeaux,away win
+ligue_1,Nice,Troyes,away win
+ligue_1,Lille,Strasbourg,away win
+ligue_1,Reims,Marseille,away win
+ligue_2,Bastia,Paris FC,away win
+ligue_2,Dijon,Guingamp,away win
+ligue_2,Dunkerque,Amiens,away win
+ligue_2,Le Havre,Grenoble,away win
+ligue_2,Nancy,Quevilly Rouen,away win
+ligue_2,Nimes,Rodez,away win
+ligue_2,Pau FC,Sochaux,away win
+ligue_2,Valenciennes,Ajaccio,away win
+ligue_2,Caen,Auxerre,away win
+ligue_2,Toulouse,Niort,home win
+eredivisie,Cambuur,Ajax,away win
+eredivisie,Sparta Rotterdam,Go Ahead Eagles,away win
+eredivisie,Groningen,Utrecht,away win
+eredivisie,Waalwijk,Heerenveen,away win
+eredivisie,For Sittard,Willem II,away win
+eredivisie,Utrecht,PSV Eindhoven,away win
+eredivisie,Heracles,Vitesse,away win
+eredivisie,Zwolle,Feyenoord,away win
+eredivisie,AZ Alkmaar,Twente,away win
