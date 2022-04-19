@@ -119,3 +119,9 @@ The notebook `model_results.ipynb` pulls in both the trained model (from `footba
 1. Rather than using the initial data we were supplied with from `besoccer.com`, it might have been better to use data from `football-data.co.uk`, which is what I used for the prediction features. This just could have been easier to work with, and covers a slightly different, but wider, set of European leagues. Elo data would still have had to be added, but again there is an alternative source at `clubelo.com`, which in fact includes some very useful metrics.
 
 1. It's unclear why the score of the predictor is quite so good (~70%). The main features driving the accuracy seem to be the win/loss streaks. It might be interesting to dive further into those data and see if there is any more accuracy to be won by creating different variations on the streak metric.
+
+## Further thoughts on model choice and accuracy
+
+I ended up selecting three models which all seemed to be reliable and performing well, with an accuracy score of 70%. Taking those forward to actual match predictions, though, resulted in wildly different prediction profiles for each, ranging from the MLP (3% draw / 77% home win / 19% away win) to KNN (0% / 64% / 36%) to Ada (0% / 8% / 92%). I have no idea how to spot which model is going to be the most accurate since the simple accuracy score doesn't appear to give enough information to make a choice.
+
+The discrepancy between the Ada Boost training / validation and the 'production' predictions are so wildly different that I need to go back and double-check the features which I'm feeding in for prediction. Something smells wrong.
