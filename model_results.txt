@@ -1,0 +1,48 @@
+Classifier:  mlp
+prediction        away win  home win  no-score draw  score draw
+league                                                         
+2_liga                   1         8              0           0
+bundesliga               0         9              0           0
+championship             3         9              0           0
+eredivisie               1         8              0           0
+ligue_1                  1         9              0           0
+ligue_2                  1         9              0           0
+premier_league           1         9              0           0
+primeira_liga            1         8              0           0
+primera_division         2         8              0           0
+segunda_division         1        10              0           0
+serie_a                  1         8              1           0
+serie_b                  1         8              0           1
+total                   14       103              1           1
+Classifier:  knn
+prediction        away win  home win
+league                              
+2_liga                   2         7
+bundesliga               2         7
+championship             3         9
+eredivisie               1         8
+ligue_1                  1         9
+ligue_2                  3         7
+premier_league           2         8
+primeira_liga            4         5
+primera_division         1         9
+segunda_division         1        10
+serie_a                  3         7
+serie_b                  2         8
+total                   25        94
+Classifier:  ada
+prediction        away win  home win
+league                              
+2_liga                   8         1
+bundesliga               7         2
+championship            11         1
+eredivisie               8         1
+ligue_1                  6         4
+ligue_2                  7         3
+premier_league           9         1
+primeira_liga            8         1
+primera_division         8         2
+segunda_division        10         1
+serie_a                  9         1
+serie_b                  8         2
+total                   99        20
