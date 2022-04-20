@@ -1,120 +1,120 @@
 league,home_team,away_team,home_elo,away_elo,home_goals_f,home_goals_a,away_goals_f,away_goals_a,home_streak,away_streak
-premier_league,Newcastle,Liverpool,69,89,23,26,40,15,2,0
-premier_league,Aston Villa,Norwich,63,62,24,25,10,35,-4,0
-premier_league,Southampton,Crystal Palace,81,74,21,20,18,23,0,0
-premier_league,Tottenham,Leicester,89,80,31,18,20,30,0,0
-premier_league,Watford,Burnley,71,69,15,39,13,25,-3,0
-premier_league,Wolves,Brighton,58,60,18,16,19,17,0,2
-premier_league,Leeds,Man City,59,94,18,30,30,8,0,0
-premier_league,Everton,Chelsea,83,94,20,19,35,9,0,0
-premier_league,West Ham,Arsenal,79,92,30,22,20,23,0,-3
-premier_league,Man United,Brentford,92,55,28,21,23,30,0,3
-championship,Huddersfield,Barnsley,55,50,31,22,14,38,0,0
-championship,Luton,Blackpool,36,39,35,21,22,26,2,0
-championship,Bournemouth,Fulham,67,62,38,20,49,18,0,-2
-championship,Birmingham,Millwall,58,49,24,29,19,26,-3,0
-championship,Derby,Bristol City,61,53,29,18,26,45,0,0
-championship,Hull,Reading,71,59,18,27,21,39,0,0
-championship,Peterboro,Nott'm Forest,47,57,22,32,27,16,2,0
-championship,Sheffield United,Cardiff,50,58,33,15,27,36,0,-2
-championship,Stoke,QPR,77,56,28,22,29,33,0,0
-championship,Swansea,Middlesbrough,75,71,26,22,23,24,0,0
-championship,West Brom,Coventry,76,42,29,16,27,32,0,0
-championship,Preston,Blackburn,58,60,28,23,17,22,0,-2
-bundesliga,Wolfsburg,Mainz,84,77,18,19,15,28,0,0
-bundesliga,Greuther Furth,Leverkusen,59,86,13,26,33,21,0,0
-bundesliga,RB Leipzig,Union Berlin,66,55,38,15,19,25,3,3
-bundesliga,Freiburg,Bochum,68,84,28,18,11,29,2,0
-bundesliga,Ein Frankfurt,Hoffenheim,76,77,17,19,21,29,-2,0
-bundesliga,FC Koln,Bielefeld,77,55,24,19,10,25,2,-2
-bundesliga,Bayern Munich,Dortmund,96,94,43,12,29,20,4,2
-bundesliga,Bochum,Augsburg,58,74,19,14,12,26,0,-2
-bundesliga,Hertha,Stuttgart,76,65,21,31,11,23,0,0
-2_liga,Karlsruhe,Ingolstadt,56,63,28,22,14,31,0,0
-2_liga,Fortuna Dusseldorf,Dresden,55,51,24,18,11,24,0,0
-2_liga,Schalke 04,Werder Bremen,84,76,36,21,29,25,5,0
-2_liga,Regensburg,Hamburg,36,73,29,23,20,14,0,0
-2_liga,Holstein Kiel,Heidenheim,41,51,19,22,13,26,0,-2
-2_liga,St Pauli,Darmstadt,54,60,33,14,26,20,0,-2
-2_liga,Paderborn,Hannover,42,62,21,24,18,25,0,0
-2_liga,Nurnberg,Sandhausen,61,48,23,17,19,21,0,0
-2_liga,Erzgebirge Aue,Hansa Rostock,51,43,12,29,22,25,0,0
-primera_division,Sevilla,Cadiz,90,53,34,16,14,23,0,0
-primera_division,Alaves,Villarreal,70,85,13,18,15,16,0,0
-primera_division,Real Madrid,Espanol,98,78,34,13,14,28,3,0
-primera_division,Valencia,Levante,84,65,23,20,18,37,0,0
-primera_division,Ath Bilbao,Ath Madrid,85,97,25,18,28,24,0,0
-primera_division,Elche,Osasuna,61,68,20,17,18,21,0,2
-primera_division,Granada,Celta,69,82,20,28,15,14,-2,0
-primera_division,Vallecano,Sociedad,64,82,22,12,20,24,0,0
-primera_division,Barcelona,Mallorca,98,57,32,14,13,36,0,0
-primera_division,Getafe,Betis,64,75,21,15,25,18,-2,0
-segunda_division,Tenerife,Huesca,55,56,26,14,25,21,2,0
-segunda_division,Sociedad B,Amorebieta,42,39,16,27,14,28,-3,0
-segunda_division,Cartagena,Girona,49,61,34,20,19,21,0,0
-segunda_division,Fuenlabrada,Ponferradina,39,49,20,21,17,25,-4,0
-segunda_division,Malaga,Eibar,60,73,17,20,20,22,0,0
-segunda_division,Alcorcon,Oviedo,58,56,15,29,16,19,0,4
-segunda_division,Ibiza,Las Palmas,46,61,27,21,19,23,0,0
-segunda_division,Mirandes,Valladolid,55,71,34,27,26,27,0,0
-segunda_division,Lugo,Leganes,53,62,20,14,20,26,0,-2
-segunda_division,Zaragoza,Burgos,60,47,15,12,12,26,0,0
-segunda_division,Almeria,Sp Gijon,60,68,33,14,18,22,0,0
-primeira_liga,Vizela,Arouca,51,67,13,19,14,22,-2,0
-primeira_liga,Portimonense,Moreirense,58,68,12,19,11,26,0,2
-primeira_liga,Benfica,Famalicao,91,53,36,15,20,28,2,0
-primeira_liga,Santa Clara,Maritimo,52,74,20,21,17,24,0,0
-primeira_liga,Gil Vicente,Pacos Ferreira,56,72,21,18,9,19,0,0
-primeira_liga,Estoril,Belenenses,71,38,18,19,6,23,0,0
-primeira_liga,Tondela,Guimaraes,59,75,21,30,14,19,-2,0
-primeira_liga,Sp Braga,Porto,83,89,25,13,35,10,0,6
-primeira_liga,Boavista,Sp Lisbon,62,88,19,16,33,13,0,0
-serie_a,Venezia,Atalanta,38,78,16,32,28,15,-7,-3
-serie_a,Torino,Spezia,77,60,27,16,16,37,0,0
-serie_a,Inter,Roma,85,89,38,13,29,22,3,0
-serie_a,Verona,Sampdoria,65,73,32,20,16,25,0,-3
-serie_a,Salernitana,Fiorentina,50,85,12,32,19,24,0,3
-serie_a,Bologna,Udinese,72,76,20,18,19,26,0,3
-serie_a,Empoli,Napoli,72,89,23,38,31,12,0,0
-serie_a,Genoa,Cagliari,74,73,11,23,13,33,-3,0
-serie_a,Lazio,Milan,85,85,36,20,33,17,0,0
-serie_a,Sassuolo,Juventus,74,95,25,24,29,18,0,0
-serie_b,Ascoli,Cittadella,53,50,20,17,16,17,2,0
-serie_b,Alessandria,Reggina,48,35,16,22,12,22,2,0
-serie_b,Crotone,Cremonese,65,47,20,23,22,17,0,0
-serie_b,Frosinone,Monza,56,33,29,13,22,19,0,0
-serie_b,Lecce,Pisa,49,51,34,14,20,19,0,0
-serie_b,Cosenza,Pordenone,44,39,17,22,9,33,0,-2
-serie_b,Benevento,Ternana,52,54,36,16,25,29,0,0
-serie_b,Brescia,Spal,58,53,26,19,13,24,0,0
-serie_b,Como,Vicenza,42,56,19,17,13,33,-3,-2
-serie_b,Perugia,Parma,54,40,16,15,21,21,0,-2
-ligue_1,Lyon,Montpellier,85,76,34,21,19,24,0,0
-ligue_1,St Etienne,Monaco,81,87,22,32,19,20,0,4
-ligue_1,Paris SG,Lens,93,59,41,9,21,25,3,2
-ligue_1,Rennes,Lorient,77,73,41,13,15,36,0,0
-ligue_1,Clermont,Angers,55,66,17,28,19,27,0,0
-ligue_1,Metz,Brest,62,58,17,28,18,24,0,0
-ligue_1,Nantes,Bordeaux,71,80,25,15,19,47,0,0
-ligue_1,Nice,Troyes,80,59,21,16,15,30,0,0
-ligue_1,Lille,Strasbourg,81,50,20,18,23,20,0,0
-ligue_1,Reims,Marseille,62,83,20,16,26,14,0,0
-ligue_2,Bastia,Paris FC,70,43,17,10,21,19,0,0
-ligue_2,Dijon,Guingamp,65,72,20,20,15,20,0,0
-ligue_2,Dunkerque,Amiens,44,52,13,18,15,22,-5,0
-ligue_2,Le Havre,Grenoble,56,35,16,17,10,21,2,0
-ligue_2,Nancy,Quevilly Rouen,70,42,13,24,12,26,-4,0
-ligue_2,Nimes,Rodez,52,31,19,24,13,23,0,-2
-ligue_2,Pau FC,Sochaux,38,61,23,17,24,19,-2,4
-ligue_2,Valenciennes,Ajaccio,58,56,18,28,17,10,-3,4
-ligue_2,Caen,Auxerre,71,61,27,17,25,18,0,2
-ligue_2,Toulouse,Niort,75,50,48,13,16,21,5,0
-eredivisie,Cambuur,Ajax,59,88,26,31,31,7,-5,5
-eredivisie,Sparta Rotterdam,Go Ahead Eagles,66,59,13,20,11,22,-2,3
-eredivisie,Groningen,Utrecht,75,69,15,15,17,20,-2,0
-eredivisie,Waalwijk,Heerenveen,55,75,12,22,11,16,0,0
-eredivisie,For Sittard,Willem II,45,61,17,26,11,32,0,-2
-eredivisie,Utrecht,PSV Eindhoven,77,88,29,18,31,16,0,0
-eredivisie,Heracles,Vitesse,72,76,20,17,18,19,0,0
-eredivisie,Zwolle,Feyenoord,71,84,11,17,33,16,0,2
-eredivisie,AZ Alkmaar,Twente,81,78,31,14,24,22,0,0
+premier_league,Newcastle,Liverpool,69.0,89.0,23,26,40,15,2,0
+premier_league,Aston Villa,Norwich,63.0,62.0,24,25,10,35,-4,0
+premier_league,Southampton,Crystal Palace,81.0,74.0,21,20,18,23,0,0
+premier_league,Tottenham,Leicester,89.0,80.0,31,18,20,30,0,0
+premier_league,Watford,Burnley,71.0,69.0,15,39,13,25,-3,0
+premier_league,Wolves,Brighton,58.0,60.0,18,16,19,17,0,2
+premier_league,Leeds,Man City,59.0,94.0,18,30,30,8,0,0
+premier_league,Everton,Chelsea,83.0,94.0,20,19,35,9,0,0
+premier_league,West Ham,Arsenal,79.0,92.0,30,22,20,23,0,-3
+premier_league,Man United,Brentford,92.0,55.0,28,21,23,30,0,3
+championship,Huddersfield,Barnsley,55.0,50.0,31,22,14,38,0,0
+championship,Luton,Blackpool,36.0,39.0,35,21,22,26,2,0
+championship,Bournemouth,Fulham,67.0,62.0,38,20,49,18,0,-2
+championship,Birmingham,Millwall,58.0,49.0,24,29,19,26,-3,0
+championship,Derby,Bristol City,61.0,53.0,29,18,26,45,0,0
+championship,Hull,Reading,71.0,59.0,18,27,21,39,0,0
+championship,Peterboro,Nott'm Forest,47.0,57.0,22,32,27,16,2,0
+championship,Sheffield United,Cardiff,50.0,58.0,33,15,27,36,0,-2
+championship,Stoke,QPR,77.0,56.0,28,22,29,33,0,0
+championship,Swansea,Middlesbrough,75.0,71.0,26,22,23,24,0,0
+championship,West Brom,Coventry,76.0,42.0,29,16,27,32,0,0
+championship,Preston,Blackburn,58.0,60.0,28,23,17,22,0,-2
+bundesliga,Wolfsburg,Mainz,84.0,77.0,18,19,15,28,0,0
+bundesliga,Greuther Furth,Leverkusen,59.0,86.0,13,26,33,21,0,0
+bundesliga,RB Leipzig,Union Berlin,66.0,55.0,38,15,19,25,3,3
+bundesliga,Freiburg,Bochum,68.0,84.0,28,18,11,29,2,0
+bundesliga,Ein Frankfurt,Hoffenheim,76.0,77.0,17,19,21,29,-2,0
+bundesliga,FC Koln,Bielefeld,77.0,55.0,24,19,10,25,2,-2
+bundesliga,Bayern Munich,Dortmund,96.0,94.0,43,12,29,20,4,2
+bundesliga,Bochum,Augsburg,58.0,74.0,19,14,12,26,0,-2
+bundesliga,Hertha,Stuttgart,76.0,65.0,21,31,11,23,0,0
+2_liga,Karlsruhe,Ingolstadt,56.0,63.0,28,22,14,31,0,0
+2_liga,Fortuna Dusseldorf,Dresden,55.0,51.0,24,18,11,24,0,0
+2_liga,Schalke 04,Werder Bremen,84.0,76.0,36,21,29,25,5,0
+2_liga,Regensburg,Hamburg,36.0,73.0,29,23,20,14,0,0
+2_liga,Holstein Kiel,Heidenheim,41.0,51.0,19,22,13,26,0,-2
+2_liga,St Pauli,Darmstadt,54.0,60.0,33,14,26,20,0,-2
+2_liga,Paderborn,Hannover,42.0,62.0,21,24,18,25,0,0
+2_liga,Nurnberg,Sandhausen,61.0,48.0,23,17,19,21,0,0
+2_liga,Erzgebirge Aue,Hansa Rostock,51.0,43.0,12,29,22,25,0,0
+primera_division,Sevilla,Cadiz,90.0,53.0,34,16,14,23,0,0
+primera_division,Alaves,Villarreal,70.0,85.0,13,18,15,16,0,0
+primera_division,Real Madrid,Espanol,98.0,78.0,34,13,14,28,3,0
+primera_division,Valencia,Levante,84.0,65.0,23,20,18,37,0,0
+primera_division,Ath Bilbao,Ath Madrid,85.0,97.0,25,18,28,24,0,0
+primera_division,Elche,Osasuna,61.0,68.0,20,17,18,21,0,2
+primera_division,Granada,Celta,69.0,82.0,20,28,15,14,-2,0
+primera_division,Vallecano,Sociedad,64.0,82.0,22,12,20,24,0,0
+primera_division,Barcelona,Mallorca,98.0,57.0,32,14,13,36,0,0
+primera_division,Getafe,Betis,64.0,75.0,21,15,25,18,-2,0
+segunda_division,Tenerife,Huesca,55.0,56.0,26,14,25,21,2,0
+segunda_division,Sociedad B,Amorebieta,42.0,39.0,16,27,14,28,-3,0
+segunda_division,Cartagena,Girona,49.0,61.0,34,20,19,21,0,0
+segunda_division,Fuenlabrada,Ponferradina,39.0,49.0,20,21,17,25,-4,0
+segunda_division,Malaga,Eibar,60.0,73.0,17,20,20,22,0,0
+segunda_division,Alcorcon,Oviedo,58.0,56.0,15,29,16,19,0,4
+segunda_division,Ibiza,Las Palmas,46.0,61.0,27,21,19,23,0,0
+segunda_division,Mirandes,Valladolid,55.0,71.0,34,27,26,27,0,0
+segunda_division,Lugo,Leganes,53.0,62.0,20,14,20,26,0,-2
+segunda_division,Zaragoza,Burgos,60.0,47.0,15,12,12,26,0,0
+segunda_division,Almeria,Sp Gijon,60.0,68.0,33,14,18,22,0,0
+primeira_liga,Vizela,Arouca,51.0,67.0,13,19,14,22,-2,0
+primeira_liga,Portimonense,Moreirense,58.0,68.0,12,19,11,26,0,2
+primeira_liga,Benfica,Famalicao,91.0,53.0,36,15,20,28,2,0
+primeira_liga,Santa Clara,Maritimo,52.0,74.0,20,21,17,24,0,0
+primeira_liga,Gil Vicente,Pacos Ferreira,56.0,72.0,21,18,9,19,0,0
+primeira_liga,Estoril,Belenenses,71.0,38.0,18,19,6,23,0,0
+primeira_liga,Tondela,Guimaraes,59.0,75.0,21,30,14,19,-2,0
+primeira_liga,Sp Braga,Porto,83.0,89.0,25,13,35,10,0,6
+primeira_liga,Boavista,Sp Lisbon,62.0,88.0,19,16,33,13,0,0
+serie_a,Venezia,Atalanta,38.0,78.0,16,32,28,15,-7,-3
+serie_a,Torino,Spezia,77.0,60.0,27,16,16,37,0,0
+serie_a,Inter,Roma,85.0,89.0,38,13,29,22,3,0
+serie_a,Verona,Sampdoria,65.0,73.0,32,20,16,25,0,-3
+serie_a,Salernitana,Fiorentina,50.0,85.0,12,32,19,24,0,3
+serie_a,Bologna,Udinese,72.0,76.0,20,18,19,26,0,3
+serie_a,Empoli,Napoli,72.0,89.0,23,38,31,12,0,0
+serie_a,Genoa,Cagliari,74.0,73.0,11,23,13,33,-3,0
+serie_a,Lazio,Milan,85.0,85.0,36,20,33,17,0,0
+serie_a,Sassuolo,Juventus,74.0,95.0,25,24,29,18,0,0
+serie_b,Ascoli,Cittadella,53.0,50.0,20,17,16,17,2,0
+serie_b,Alessandria,Reggina,48.0,35.0,16,22,12,22,2,0
+serie_b,Crotone,Cremonese,65.0,47.0,20,23,22,17,0,0
+serie_b,Frosinone,Monza,56.0,33.0,29,13,22,19,0,0
+serie_b,Lecce,Pisa,49.0,51.0,34,14,20,19,0,0
+serie_b,Cosenza,Pordenone,44.0,39.0,17,22,9,33,0,-2
+serie_b,Benevento,Ternana,52.0,54.0,36,16,25,29,0,0
+serie_b,Brescia,Spal,58.0,53.0,26,19,13,24,0,0
+serie_b,Como,Vicenza,42.0,56.0,19,17,13,33,-3,-2
+serie_b,Perugia,Parma,54.0,40.0,16,15,21,21,0,-2
+ligue_1,Lyon,Montpellier,85.0,76.0,34,21,19,24,0,0
+ligue_1,St Etienne,Monaco,81.0,87.0,22,32,19,20,0,4
+ligue_1,Paris SG,Lens,93.0,59.0,41,9,21,25,3,2
+ligue_1,Rennes,Lorient,77.0,73.0,41,13,15,36,0,0
+ligue_1,Clermont,Angers,55.0,66.0,17,28,19,27,0,0
+ligue_1,Metz,Brest,62.0,58.0,17,28,18,24,0,0
+ligue_1,Nantes,Bordeaux,71.0,80.0,25,15,19,47,0,0
+ligue_1,Nice,Troyes,80.0,59.0,21,16,15,30,0,0
+ligue_1,Lille,Strasbourg,81.0,50.0,20,18,23,20,0,0
+ligue_1,Reims,Marseille,62.0,83.0,20,16,26,14,0,0
+ligue_2,Bastia,Paris FC,70.0,43.0,17,10,21,19,0,0
+ligue_2,Dijon,Guingamp,65.0,72.0,20,20,15,20,0,0
+ligue_2,Dunkerque,Amiens,44.0,52.0,13,18,15,22,-5,0
+ligue_2,Le Havre,Grenoble,56.0,35.0,16,17,10,21,2,0
+ligue_2,Nancy,Quevilly Rouen,70.0,42.0,13,24,12,26,-4,0
+ligue_2,Nimes,Rodez,52.0,31.0,19,24,13,23,0,-2
+ligue_2,Pau FC,Sochaux,38.0,61.0,23,17,24,19,-2,4
+ligue_2,Valenciennes,Ajaccio,58.0,56.0,18,28,17,10,-3,4
+ligue_2,Caen,Auxerre,71.0,61.0,27,17,25,18,0,2
+ligue_2,Toulouse,Niort,75.0,50.0,48,13,16,21,5,0
+eredivisie,Cambuur,Ajax,59.0,88.0,26,31,31,7,-5,5
+eredivisie,Sparta Rotterdam,Go Ahead Eagles,66.0,59.0,13,20,11,22,-2,3
+eredivisie,Groningen,Utrecht,75.0,69.0,15,15,17,20,-2,0
+eredivisie,Waalwijk,Heerenveen,55.0,75.0,12,22,11,16,0,0
+eredivisie,For Sittard,Willem II,45.0,61.0,17,26,11,32,0,-2
+eredivisie,Utrecht,PSV Eindhoven,77.0,88.0,29,18,31,16,0,0
+eredivisie,Heracles,Vitesse,72.0,76.0,20,17,18,19,0,0
+eredivisie,Zwolle,Feyenoord,71.0,84.0,11,17,33,16,0,2
+eredivisie,AZ Alkmaar,Twente,81.0,78.0,31,14,24,22,0,0

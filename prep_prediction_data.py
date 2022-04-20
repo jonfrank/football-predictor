@@ -105,6 +105,8 @@ for league_id, league_name in league_names.items():
     print('-----------------')
 
 cleaned_data = pd.DataFrame(feature_data, columns=['league','home_team','away_team','home_elo','away_elo','home_goals_f','home_goals_a','away_goals_f','away_goals_a','home_streak','away_streak'])
+cleaned_data['home_elo'] = cleaned_data['home_elo'].astype(float)
+cleaned_data['away_elo'] = cleaned_data['away_elo'].astype(float)
 with open('cleaned_results.csv', 'w') as f:
     cleaned_data.to_csv(f, index=False)
 print('saved csv')
